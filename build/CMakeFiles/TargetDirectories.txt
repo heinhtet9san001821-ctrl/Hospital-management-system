@@ -1,0 +1,3 @@
+D:/Automation/Hospital management system/build/CMakeFiles/hms_app.dir
+D:/Automation/Hospital management system/build/CMakeFiles/edit_cache.dir
+D:/Automation/Hospital management system/build/CMakeFiles/rebuild_cache.dir
