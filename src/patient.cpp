@@ -21,5 +21,6 @@ Patient::Patient(const std::string& id,
       isEmergency_(isEmergency) {}
 
 const std::string& Patient::getPatientId() const { return patientId_; }
+const std::string& Patient::getMedicalHistory() const { return medicalHistory_; }
 
 
