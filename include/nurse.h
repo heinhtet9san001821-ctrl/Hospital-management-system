@@ -18,4 +18,14 @@ public:
           const std::string& assignedWard,
           const std::string& shiftTime);
 
-   
+    ~Nurse() override = default;
+    // Getter Functions //
+    const std::string& getNurseId() const;
+    const std::string& getAssignedWard() const;
+    const std::string& getShiftTime() const;
+
+    //Setter Functions//
+    void setAssignedWard(const std::string& assignedWard);
+    void setShiftTime(const std::string& shiftTime);
+    
+    
