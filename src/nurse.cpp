@@ -28,3 +28,17 @@ void Nurse::setShiftTime(const std::string& shiftTime) {
     shiftTime_ = shiftTime;
 }
 
+void Nurse::displayDetails() const {
+    std::cout << "----- Nurse Details -----\n";
+    std::cout << "Nurse ID        : " << nurseId_ << "\n";
+    std::cout << "Person ID       : " << id_ << "\n";
+    std::cout << "Name            : " << name_ << "\n";
+    std::cout << "Age             : " << age_ << "\n";
+    std::cout << "Gender          : " << gender_ << "\n";
+    std::cout << "Phone Number    : " << phoneNumber_ << "\n";
+    std::cout << "Assigned Ward   : " << assignedWard_ << "\n";
+    std::cout << "Shift Time      : " << shiftTime_ << "\n";
+    std::cout << "----------------------------\n";
+}
+
+} // namespace hms
