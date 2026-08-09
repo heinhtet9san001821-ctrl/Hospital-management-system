@@ -28,4 +28,15 @@ public:
     void setAssignedWard(const std::string& assignedWard);
     void setShiftTime(const std::string& shiftTime);
     
-    
+    // Display Functions //
+    void displayDetails() const override;
+
+private:
+    std::string nurseId_;
+    std::string assignedWard_;
+    std::string shiftTime_;
+};
+
+} // namespace hms
+
+#endif // HMS_NURSE_H
