@@ -24,3 +24,7 @@ namespace hms
     {
         return passwordHash_ == hashPassword(password);
     }
+    const std::string &User::getUsername() const { return username_; }
+    const std::string &User::getRole() const { return role_; }
+
+}
