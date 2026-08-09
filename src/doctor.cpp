@@ -2,7 +2,9 @@
 #include <iostream>
 
 namespace hms {
+
 // Constructor to initialize a Doctor object with personal and professional details
+
 Doctor::Doctor(const std::string& id,
                const std::string& name,
                int age,
@@ -17,7 +19,9 @@ Doctor::Doctor(const std::string& id,
       specialization_(specialization),
       roomNo_(roomNo),
       isAvailable_(isAvailable) {}
+
 // Getter methods to access private member variables
+
 const std::string& Doctor::getDoctorId() const { return doctorId_; }
 const std::string& Doctor::getSpecialization() const { return specialization_; }
 int Doctor::getRoomNo() const { return roomNo_; }
@@ -34,3 +38,19 @@ void Doctor::setRoomNo(int roomNo) {
 void Doctor::setAvailable(bool isAvailable) {
     isAvailable_ = isAvailable;
 }
+// Method to display the details of the doctor
+void Doctor::displayDetails() const {
+    std::cout << "----- Doctor Details -----\n";
+    std::cout << "Doctor ID       : " << doctorId_ << "\n";
+    std::cout << "Person ID       : " << id_ << "\n";
+    std::cout << "Name            : " << name_ << "\n";
+    std::cout << "Age             : " << age_ << "\n";
+    std::cout << "Gender          : " << gender_ << "\n";
+    std::cout << "Phone Number    : " << phoneNumber_ << "\n";
+    std::cout << "Specialization  : " << specialization_ << "\n";
+    std::cout << "Room No.        : " << roomNo_ << "\n";
+    std::cout << "Available       : " << (isAvailable_ ? "Yes" : "No") << "\n";
+    std::cout << "----------------------------\n";
+}
+
+} // namespace hms
