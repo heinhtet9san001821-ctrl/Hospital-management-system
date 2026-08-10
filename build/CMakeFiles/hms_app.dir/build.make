@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Automation\Hospital management system"
+CMAKE_SOURCE_DIR = "D:\C++ project\Hospital management system"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Automation\Hospital management system\build"
+CMAKE_BINARY_DIR = "D:\C++ project\Hospital management system\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hms_app.dir/depend.make
@@ -73,108 +73,108 @@ CMakeFiles/hms_app.dir/codegen:
 
 CMakeFiles/hms_app.dir/src/doctor.cpp.obj: CMakeFiles/hms_app.dir/flags.make
 CMakeFiles/hms_app.dir/src/doctor.cpp.obj: CMakeFiles/hms_app.dir/includes_CXX.rsp
-CMakeFiles/hms_app.dir/src/doctor.cpp.obj: D:/Automation/Hospital\ management\ system/src/doctor.cpp
+CMakeFiles/hms_app.dir/src/doctor.cpp.obj: D:/C++\ project/Hospital\ management\ system/src/doctor.cpp
 CMakeFiles/hms_app.dir/src/doctor.cpp.obj: CMakeFiles/hms_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Automation\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hms_app.dir/src/doctor.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/doctor.cpp.obj -MF CMakeFiles\hms_app.dir\src\doctor.cpp.obj.d -o CMakeFiles\hms_app.dir\src\doctor.cpp.obj -c "D:\Automation\Hospital management system\src\doctor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\C++ project\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hms_app.dir/src/doctor.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/doctor.cpp.obj -MF CMakeFiles\hms_app.dir\src\doctor.cpp.obj.d -o CMakeFiles\hms_app.dir\src\doctor.cpp.obj -c "D:\C++ project\Hospital management system\src\doctor.cpp"
 
 CMakeFiles/hms_app.dir/src/doctor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hms_app.dir/src/doctor.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Automation\Hospital management system\src\doctor.cpp" > CMakeFiles\hms_app.dir\src\doctor.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++ project\Hospital management system\src\doctor.cpp" > CMakeFiles\hms_app.dir\src\doctor.cpp.i
 
 CMakeFiles/hms_app.dir/src/doctor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hms_app.dir/src/doctor.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Automation\Hospital management system\src\doctor.cpp" -o CMakeFiles\hms_app.dir\src\doctor.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++ project\Hospital management system\src\doctor.cpp" -o CMakeFiles\hms_app.dir\src\doctor.cpp.s
 
 CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj: CMakeFiles/hms_app.dir/flags.make
 CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj: CMakeFiles/hms_app.dir/includes_CXX.rsp
-CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj: D:/Automation/Hospital\ management\ system/src/hospital_manager.cpp
+CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj: D:/C++\ project/Hospital\ management\ system/src/hospital_manager.cpp
 CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj: CMakeFiles/hms_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Automation\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj -MF CMakeFiles\hms_app.dir\src\hospital_manager.cpp.obj.d -o CMakeFiles\hms_app.dir\src\hospital_manager.cpp.obj -c "D:\Automation\Hospital management system\src\hospital_manager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\C++ project\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj -MF CMakeFiles\hms_app.dir\src\hospital_manager.cpp.obj.d -o CMakeFiles\hms_app.dir\src\hospital_manager.cpp.obj -c "D:\C++ project\Hospital management system\src\hospital_manager.cpp"
 
 CMakeFiles/hms_app.dir/src/hospital_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hms_app.dir/src/hospital_manager.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Automation\Hospital management system\src\hospital_manager.cpp" > CMakeFiles\hms_app.dir\src\hospital_manager.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++ project\Hospital management system\src\hospital_manager.cpp" > CMakeFiles\hms_app.dir\src\hospital_manager.cpp.i
 
 CMakeFiles/hms_app.dir/src/hospital_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hms_app.dir/src/hospital_manager.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Automation\Hospital management system\src\hospital_manager.cpp" -o CMakeFiles\hms_app.dir\src\hospital_manager.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++ project\Hospital management system\src\hospital_manager.cpp" -o CMakeFiles\hms_app.dir\src\hospital_manager.cpp.s
 
 CMakeFiles/hms_app.dir/src/main.cpp.obj: CMakeFiles/hms_app.dir/flags.make
 CMakeFiles/hms_app.dir/src/main.cpp.obj: CMakeFiles/hms_app.dir/includes_CXX.rsp
-CMakeFiles/hms_app.dir/src/main.cpp.obj: D:/Automation/Hospital\ management\ system/src/main.cpp
+CMakeFiles/hms_app.dir/src/main.cpp.obj: D:/C++\ project/Hospital\ management\ system/src/main.cpp
 CMakeFiles/hms_app.dir/src/main.cpp.obj: CMakeFiles/hms_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Automation\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hms_app.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/main.cpp.obj -MF CMakeFiles\hms_app.dir\src\main.cpp.obj.d -o CMakeFiles\hms_app.dir\src\main.cpp.obj -c "D:\Automation\Hospital management system\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\C++ project\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hms_app.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/main.cpp.obj -MF CMakeFiles\hms_app.dir\src\main.cpp.obj.d -o CMakeFiles\hms_app.dir\src\main.cpp.obj -c "D:\C++ project\Hospital management system\src\main.cpp"
 
 CMakeFiles/hms_app.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hms_app.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Automation\Hospital management system\src\main.cpp" > CMakeFiles\hms_app.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++ project\Hospital management system\src\main.cpp" > CMakeFiles\hms_app.dir\src\main.cpp.i
 
 CMakeFiles/hms_app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hms_app.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Automation\Hospital management system\src\main.cpp" -o CMakeFiles\hms_app.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++ project\Hospital management system\src\main.cpp" -o CMakeFiles\hms_app.dir\src\main.cpp.s
 
 CMakeFiles/hms_app.dir/src/nurse.cpp.obj: CMakeFiles/hms_app.dir/flags.make
 CMakeFiles/hms_app.dir/src/nurse.cpp.obj: CMakeFiles/hms_app.dir/includes_CXX.rsp
-CMakeFiles/hms_app.dir/src/nurse.cpp.obj: D:/Automation/Hospital\ management\ system/src/nurse.cpp
+CMakeFiles/hms_app.dir/src/nurse.cpp.obj: D:/C++\ project/Hospital\ management\ system/src/nurse.cpp
 CMakeFiles/hms_app.dir/src/nurse.cpp.obj: CMakeFiles/hms_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Automation\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hms_app.dir/src/nurse.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/nurse.cpp.obj -MF CMakeFiles\hms_app.dir\src\nurse.cpp.obj.d -o CMakeFiles\hms_app.dir\src\nurse.cpp.obj -c "D:\Automation\Hospital management system\src\nurse.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\C++ project\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hms_app.dir/src/nurse.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/nurse.cpp.obj -MF CMakeFiles\hms_app.dir\src\nurse.cpp.obj.d -o CMakeFiles\hms_app.dir\src\nurse.cpp.obj -c "D:\C++ project\Hospital management system\src\nurse.cpp"
 
 CMakeFiles/hms_app.dir/src/nurse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hms_app.dir/src/nurse.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Automation\Hospital management system\src\nurse.cpp" > CMakeFiles\hms_app.dir\src\nurse.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++ project\Hospital management system\src\nurse.cpp" > CMakeFiles\hms_app.dir\src\nurse.cpp.i
 
 CMakeFiles/hms_app.dir/src/nurse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hms_app.dir/src/nurse.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Automation\Hospital management system\src\nurse.cpp" -o CMakeFiles\hms_app.dir\src\nurse.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++ project\Hospital management system\src\nurse.cpp" -o CMakeFiles\hms_app.dir\src\nurse.cpp.s
 
 CMakeFiles/hms_app.dir/src/patient.cpp.obj: CMakeFiles/hms_app.dir/flags.make
 CMakeFiles/hms_app.dir/src/patient.cpp.obj: CMakeFiles/hms_app.dir/includes_CXX.rsp
-CMakeFiles/hms_app.dir/src/patient.cpp.obj: D:/Automation/Hospital\ management\ system/src/patient.cpp
+CMakeFiles/hms_app.dir/src/patient.cpp.obj: D:/C++\ project/Hospital\ management\ system/src/patient.cpp
 CMakeFiles/hms_app.dir/src/patient.cpp.obj: CMakeFiles/hms_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Automation\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hms_app.dir/src/patient.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/patient.cpp.obj -MF CMakeFiles\hms_app.dir\src\patient.cpp.obj.d -o CMakeFiles\hms_app.dir\src\patient.cpp.obj -c "D:\Automation\Hospital management system\src\patient.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\C++ project\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hms_app.dir/src/patient.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/patient.cpp.obj -MF CMakeFiles\hms_app.dir\src\patient.cpp.obj.d -o CMakeFiles\hms_app.dir\src\patient.cpp.obj -c "D:\C++ project\Hospital management system\src\patient.cpp"
 
 CMakeFiles/hms_app.dir/src/patient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hms_app.dir/src/patient.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Automation\Hospital management system\src\patient.cpp" > CMakeFiles\hms_app.dir\src\patient.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++ project\Hospital management system\src\patient.cpp" > CMakeFiles\hms_app.dir\src\patient.cpp.i
 
 CMakeFiles/hms_app.dir/src/patient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hms_app.dir/src/patient.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Automation\Hospital management system\src\patient.cpp" -o CMakeFiles\hms_app.dir\src\patient.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++ project\Hospital management system\src\patient.cpp" -o CMakeFiles\hms_app.dir\src\patient.cpp.s
 
 CMakeFiles/hms_app.dir/src/person.cpp.obj: CMakeFiles/hms_app.dir/flags.make
 CMakeFiles/hms_app.dir/src/person.cpp.obj: CMakeFiles/hms_app.dir/includes_CXX.rsp
-CMakeFiles/hms_app.dir/src/person.cpp.obj: D:/Automation/Hospital\ management\ system/src/person.cpp
+CMakeFiles/hms_app.dir/src/person.cpp.obj: D:/C++\ project/Hospital\ management\ system/src/person.cpp
 CMakeFiles/hms_app.dir/src/person.cpp.obj: CMakeFiles/hms_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Automation\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hms_app.dir/src/person.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/person.cpp.obj -MF CMakeFiles\hms_app.dir\src\person.cpp.obj.d -o CMakeFiles\hms_app.dir\src\person.cpp.obj -c "D:\Automation\Hospital management system\src\person.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\C++ project\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hms_app.dir/src/person.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/person.cpp.obj -MF CMakeFiles\hms_app.dir\src\person.cpp.obj.d -o CMakeFiles\hms_app.dir\src\person.cpp.obj -c "D:\C++ project\Hospital management system\src\person.cpp"
 
 CMakeFiles/hms_app.dir/src/person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hms_app.dir/src/person.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Automation\Hospital management system\src\person.cpp" > CMakeFiles\hms_app.dir\src\person.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++ project\Hospital management system\src\person.cpp" > CMakeFiles\hms_app.dir\src\person.cpp.i
 
 CMakeFiles/hms_app.dir/src/person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hms_app.dir/src/person.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Automation\Hospital management system\src\person.cpp" -o CMakeFiles\hms_app.dir\src\person.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++ project\Hospital management system\src\person.cpp" -o CMakeFiles\hms_app.dir\src\person.cpp.s
 
 CMakeFiles/hms_app.dir/src/user.cpp.obj: CMakeFiles/hms_app.dir/flags.make
 CMakeFiles/hms_app.dir/src/user.cpp.obj: CMakeFiles/hms_app.dir/includes_CXX.rsp
-CMakeFiles/hms_app.dir/src/user.cpp.obj: D:/Automation/Hospital\ management\ system/src/user.cpp
+CMakeFiles/hms_app.dir/src/user.cpp.obj: D:/C++\ project/Hospital\ management\ system/src/user.cpp
 CMakeFiles/hms_app.dir/src/user.cpp.obj: CMakeFiles/hms_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Automation\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hms_app.dir/src/user.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/user.cpp.obj -MF CMakeFiles\hms_app.dir\src\user.cpp.obj.d -o CMakeFiles\hms_app.dir\src\user.cpp.obj -c "D:\Automation\Hospital management system\src\user.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\C++ project\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hms_app.dir/src/user.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hms_app.dir/src/user.cpp.obj -MF CMakeFiles\hms_app.dir\src\user.cpp.obj.d -o CMakeFiles\hms_app.dir\src\user.cpp.obj -c "D:\C++ project\Hospital management system\src\user.cpp"
 
 CMakeFiles/hms_app.dir/src/user.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hms_app.dir/src/user.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Automation\Hospital management system\src\user.cpp" > CMakeFiles\hms_app.dir\src\user.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++ project\Hospital management system\src\user.cpp" > CMakeFiles\hms_app.dir\src\user.cpp.i
 
 CMakeFiles/hms_app.dir/src/user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hms_app.dir/src/user.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Automation\Hospital management system\src\user.cpp" -o CMakeFiles\hms_app.dir\src\user.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++ project\Hospital management system\src\user.cpp" -o CMakeFiles\hms_app.dir\src\user.cpp.s
 
 # Object files for target hms_app
 hms_app_OBJECTS = \
@@ -200,7 +200,7 @@ hms_app.exe: CMakeFiles/hms_app.dir/build.make
 hms_app.exe: CMakeFiles/hms_app.dir/linkLibs.rsp
 hms_app.exe: CMakeFiles/hms_app.dir/objects1.rsp
 hms_app.exe: CMakeFiles/hms_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Automation\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable hms_app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\C++ project\Hospital management system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable hms_app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\hms_app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -212,6 +212,6 @@ CMakeFiles/hms_app.dir/clean:
 .PHONY : CMakeFiles/hms_app.dir/clean
 
 CMakeFiles/hms_app.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Automation\Hospital management system" "D:\Automation\Hospital management system" "D:\Automation\Hospital management system\build" "D:\Automation\Hospital management system\build" "D:\Automation\Hospital management system\build\CMakeFiles\hms_app.dir\DependInfo.cmake" "--color=$(COLOR)" hms_app
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\C++ project\Hospital management system" "D:\C++ project\Hospital management system" "D:\C++ project\Hospital management system\build" "D:\C++ project\Hospital management system\build" "D:\C++ project\Hospital management system\build\CMakeFiles\hms_app.dir\DependInfo.cmake" "--color=$(COLOR)" hms_app
 .PHONY : CMakeFiles/hms_app.dir/depend
 

@@ -1,6 +1,6 @@
 CMakeFiles/hms_app.dir/src/person.cpp.obj: \
- D:\Automation\Hospital\ management\ system\src\person.cpp \
- D:/Automation/Hospital\ management\ system/include/person.h \
+ D:\C++\ project\Hospital\ management\ system\src\person.cpp \
+ D:/C++\ project/Hospital\ management\ system/include/person.h \
  C:/msys64/ucrt64/include/c++/15.2.0/string \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
