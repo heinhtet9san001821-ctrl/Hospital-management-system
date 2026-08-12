@@ -33,6 +33,32 @@ int main() {
     hms::HospitalManager dbInstance;
     dbInstance.loadAllFromCSV();
 
+    
+    // ==========================================
+    // FEATURE 4:  (Lookup Test)
+    // ==========================================
+    std::cout << "\033[1;36mStep 4: Running lookups on the reloaded Database Instance...\033[0m\n";
+
+    //  Finding the patient's info
+    hms::Patient* p = dbInstance.findPatientById("PAT_001");
+    if (p) { p->displayDetails(); std::cout << "\n"; }
+
+    //  Finding the doctor's info (NEW FEATURE TEST)
+    hms::Doctor* d = dbInstance.findDoctorById("DOC_001");
+    if (d) { d->displayDetails(); std::cout << "\n"; }
+
+    //  Testing the security of the user account(NEW USER PATCH TEST)
+    hms::User* u = dbInstance.findUserByUsername("admin");
+    if (u) {
+        std::cout << "Found User Account: " << u->getUsername() << " [" << u->getRole() << "]\n";
+        std::cout << "Password Authentication: ";
+        if (u->authenticate("hunter2")) {
+            std::cout << "\033[1;32m[VERIFIED SUCCESS - LOGGED IN]\033[0m\n";
+        } else {
+            std::cout << "\033[1;31m[FAILED]\033[0m\n";
+        }
+    }
+
 
     return 0;
 }
