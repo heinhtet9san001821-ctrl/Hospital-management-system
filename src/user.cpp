@@ -9,6 +9,24 @@ namespace hms
                const std::string &password,
                const std::string &role)
         : username_(username), passwordHash_(hashPassword(password)), role_(role) {}
+
+    // Tag-dispatch constructor: passwordHash is stored as-is, never
+    // re-hashed. Only reachable via fromStoredHash().
+    User::User(const std::string &username,
+               const std::string &passwordHash,
+               const std::string &role,
+               StoredHashTag)
+        : username_(username), passwordHash_(passwordHash), role_(role) {}
+
+    User User::fromStoredHash(const std::string &username,
+                               const std::string &passwordHash,
+                               const std::string &role)
+    {
+        return User(username, passwordHash, role, StoredHashTag{});
+    }
+
+    const std::string &User::getPasswordHash() const { return passwordHash_; }
+
     std::string User::hashPassword(const std::string &password)
     {
 
