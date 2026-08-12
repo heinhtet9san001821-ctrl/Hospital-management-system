@@ -19,6 +19,20 @@ int main() {
     manager.addNurse(hms::Nurse("N001", "Daw Nu Nu", 30, "Female", "094445556", "NUR_001", "ICU Ward", "Night Shift"));
     manager.addUser(hms::User("admin", "hunter2", "Owner"));
 
+     // ==========================================
+    // FEATURE 2: All the data are automatically saved into CSV files(Save Test)
+    // ==========================================
+    std::cout << "Step 2: Writing all records into 4 distinct CSV files inside data/ ...\n";
+    manager.saveAllToCSV();
+    std::cout << "\033[1;32m[SUCCESS] All data serialization passed!\033[0m\n\n";
+
+    // ==========================================
+    // FEATURE 3: Read the data from the file automatically (Reload/Load Test)
+    // ==========================================
+    std::cout << "Step 3: Creating a brand-new Database Instance to reload data from CSV files...\n";
+    hms::HospitalManager dbInstance;
+    dbInstance.loadAllFromCSV();
+
 
     return 0;
 }
