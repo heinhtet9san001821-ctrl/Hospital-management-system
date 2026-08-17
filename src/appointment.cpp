@@ -14,13 +14,14 @@ Appointment::Appointment(const std::string& appointmentId,
       doctorId_(doctorId),
       dateTime_(dateTime),
       status_(status) {}
-      //Function to return the Appointment ID
+
+//Function to return the Appointment ID
 const std::string& Appointment::getAppointmentId() const { return appointmentId_; }
 //Function to return the Patient ID
 const std::string& Appointment::getPatientId() const { return patientId_; }
 //Function to return the Doctor ID
 const std::string& Appointment::getDoctorId() const { return doctorId_; }
-//Function to return
+
 const std::string& Appointment::getDateTime() const { return dateTime_; }
 AppointmentStatus Appointment::getStatus() const { return status_; }
 
