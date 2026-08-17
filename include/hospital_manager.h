@@ -117,4 +117,73 @@ public:
     WardOccupancy getGeneralWardOccupancy() const;
     void printRoomOccupancy() const;
 
-   
+    // ==================== Phase 3.3: Billing ====================
+    // Aggregates a patient's doctor consultation fees (summed across
+    // all of their booked appointments, priced by each doctor's
+    // specialization), room charges (priced by ward type * number of
+    // admitted days), and a base treatment charge (priced by
+    // treatment type). Prints an itemized invoice to the console and
+    // returns the total in MMK. Returns -1.0 (with a console error) if
+    // the patient cannot be found.
+    double calculateTotalBill(const std::string& patientId, int admittedDays = 1);
+
+    // ==================== Phase 3.4: Emergency Dispatch ====================
+    // Instantly registers a new emergency patient with NO upfront
+    // payment screen: isEmergency_ = true, treatmentType_ = "Emergency
+    // ICU", and an automatic attempt to allocate an ICU bed. Logs a
+    // high-priority dispatch message to the console and immediately
+    // appends the new record to data/patient.csv (in addition to
+    // holding it in memory), so the record survives even if the
+    // process terminates before the next full saveAllToCSV().
+    void triggerEmergencyRescue(const std::string& patientName,
+                                const std::string& contactPhone,
+                                const std::string& emergencyLocation);
+
+private:
+    std::vector<Patient> patients_;
+    std::vector<Doctor> doctors_;
+    std::vector<Nurse> nurses_;
+    std::vector<User> users_;
+    std::vector<Appointment> appointments_;
+    BloodBank bloodBank_;
+
+    // In-memory ward occupancy trackers: the set of room numbers
+    // currently occupied in each ward. Rebuilt from patients_ after
+    // every CSV load so the tracker always matches persisted state.
+    std::set<int> occupiedIcuRooms_;
+    std::set<int> occupiedGeneralWardRooms_;
+
+    // Monotonically increasing ID counters. Reseeded from the highest
+    // ID found in loaded data so restarts never generate a colliding ID.
+    int appointmentCounter_ = 0;
+    int emergencyPatientCounter_ = 0;
+
+    // Directory + file path constants
+    static const std::string kDataDirectory;
+    static const std::string kPatientFile;
+    static const std::string kDoctorFile;
+    static const std::string kNurseFile;
+    static const std::string kUserFile;
+    static const std::string kAppointmentFile;
+    static const std::string kBloodBankFile;
+
+    static void ensureDataDirectoryExists();
+
+    // ---- Phase 3 internal helpers ----
+    std::string generateAppointmentId();
+    std::string generateEmergencyPatientId();
+    void resyncAppointmentCounter();
+    void resyncEmergencyCounterFromPatients();
+    // Rebuilds occupiedIcuRooms_ / occupiedGeneralWardRooms_ from the
+    // assignedRoomNo_ values already present in patients_. Called after
+    // loading patients from CSV.
+    void rebuildRoomOccupancyFromPatients();
+    // Appends a single patient row to data/patient.csv without
+    // rewriting the whole file (used by triggerEmergencyRescue for
+    // immediate durability).
+    void appendPatientToCSV(const Patient& p);
+};
+
+} // namespace hms
+
+#endif // HMS_HOSPITAL_MANAGER_H
