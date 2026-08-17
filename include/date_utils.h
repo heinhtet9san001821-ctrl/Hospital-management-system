@@ -2,6 +2,8 @@
 #define HMS_DATE_UTILS_H
 
 #include <cstdint>
+#include <iomanip>
+#include <sstream>
 
 namespace hms::dateutils
 {
@@ -22,4 +24,42 @@ namespace hms::dateutils
 
         return era * 146097 +
                static_cast<int64_t>(doe) - 719468;
+    }
+    inline void civilFromDays(int64_t z, int &y, unsigned &m, unsigned &d)
+    {
+        z += 719468;
+
+        const int64_t era =
+            (z >= 0 ? z : z - 146096) / 146097;
+
+        const unsigned doe =
+            static_cast<unsigned>(z - era * 146097);
+
+        const unsigned yoe =
+            (doe - doe / 1460 + doe / 36524 - doe / 146096) / 365;
+
+        const int y2 =
+            static_cast<int>(yoe) +
+            static_cast<int>(era * 400);
+
+        const unsigned doy =
+            doe - (365 * yoe + yoe / 4 - yoe / 100);
+
+        const unsigned mp =
+            (5 * doy + 2) / 153;
+
+        d = doy - (153 * mp + 2) / 5 + 1;
+        m = mp + (mp < 10 ? 3 : -9);
+        y = y2 + ((m <= 2) ? 1 : 0);
+    }
+
+    inline std::string formatDate(int y, unsigned m, unsigned d)
+    {
+        std::ostringstream oss;
+
+        oss << std::setfill('0') << std::setw(4) << y << "-"
+            << std::setfill('0') << std::setw(2) << m << "-"
+            << std::setfill('0') << std::setw(2) << d;
+
+        return oss.str();
     }
