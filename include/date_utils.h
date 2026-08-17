@@ -4,6 +4,10 @@
 #include <cstdint>
 #include <iomanip>
 #include <sstream>
+#include <string>
+#include <cstdio>
+#include <chrono>
+#include <ctime>
 
 namespace hms::dateutils
 {
@@ -63,3 +67,63 @@ namespace hms::dateutils
 
         return oss.str();
     }
+    inline std::string today()
+    {
+        const auto now = std::chrono::system_clock::now();
+        const std::time_t nowTimeT =
+            std::chrono::system_clock::to_time_t(now);
+
+        std::tm utcTm{};
+
+#if defined(_WIN32)
+        gmtime_s(&utcTm, &nowTimeT);
+#else
+        gmtime_r(&nowTimeT, &utcTm);
+#endif
+
+        return formatDate(
+            utcTm.tm_year + 1900,
+            static_cast<unsigned>(utcTm.tm_mon + 1),
+            static_cast<unsigned>(utcTm.tm_mday));
+    }
+    inline std::string today()
+    {
+        const auto now = std::chrono::system_clock::now();
+        const std::time_t nowTimeT =
+            std::chrono::system_clock::to_time_t(now);
+
+        std::tm utcTm{};
+
+#if defined(_WIN32)
+        gmtime_s(&utcTm, &nowTimeT);
+#else
+        gmtime_r(&nowTimeT, &utcTm);
+#endif
+
+        return formatDate(
+            utcTm.tm_year + 1900,
+            static_cast<unsigned>(utcTm.tm_mon + 1),
+            static_cast<unsigned>(utcTm.tm_mday));
+    }
+    inline std::string addDays(const std::string &dateStr, int days)
+    {
+        int y;
+        unsigned m, d;
+
+        parseDate(dateStr, y, m, d);
+
+        const int64_t z =
+            daysFromCivil(y, m, d) + days;
+
+        civilFromDays(z, y, m, d);
+
+        return formatDate(y, m, d);
+    }
+    inline bool isPast(const std::string &dateStr)
+    {
+        return dateStr < today();
+    }
+
+} // namespace hms::dateutils
+
+#endif // HMS_DATE_UTILS_H
