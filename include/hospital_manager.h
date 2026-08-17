@@ -68,4 +68,53 @@ public:
     void loadUsersFromCSV();
     void loadAppointmentsFromCSV();
 
-    
+    // ==================== Phase 3.1: Appointment Scheduling ====================
+    // Books an appointment for an existing patient with an existing,
+    // currently-available doctor. On success: creates the Appointment
+    // record, assigns the doctor's consultation room (roomNo_) to the
+    // patient's assignedRoomNo_, persists both the patient and
+    // appointment CSVs, and returns true. Returns false (with a
+    // descriptive console message) if the patient/doctor cannot be
+    // found or the doctor is not currently available.
+    bool bookAppointment(const std::string& patientId,
+                         const std::string& doctorId,
+                         const std::string& dateTime);
+
+    // ==================== Phase 3.2: Bed & Room Allocation ====================
+    // Ward capacity constants. Room numbers are partitioned into two
+    // disjoint ranges so ICU and General Ward occupancy can never
+    // collide: ICU uses [kIcuRoomBase, kIcuRoomBase + kIcuCapacity),
+    // General Ward uses [kGeneralWardRoomBase, kGeneralWardRoomBase +
+    // kGeneralWardCapacity).
+    static constexpr int kIcuRoomBase = 500;
+    static constexpr int kIcuCapacity = 10;
+    static constexpr int kGeneralWardRoomBase = 600;
+    static constexpr int kGeneralWardCapacity = 50;
+    // Sentinel assignedRoomNo_ value meaning "needs a ward bed but none
+    // was free at the time" (i.e. waitlisted).
+    static constexpr int kWaitlistedRoomNo = -1;
+
+    // Inspects the patient's treatmentType_ for "ICU" or "General
+    // Ward" (case-insensitive) and, if it matches one of those wards,
+    // assigns the next free bed number in that ward's range to the
+    // patient's assignedRoomNo_. If the ward is at capacity the
+    // patient is marked waitlisted (assignedRoomNo_ = kWaitlistedRoomNo)
+    // instead. Returns true if a bed was actually assigned, false
+    // otherwise (patient not found, treatment type is not ward-based,
+    // or the ward is full).
+    bool allocateWardBed(const std::string& patientId);
+
+    // Frees whatever ward bed the patient currently occupies (if any)
+    // and resets their assignedRoomNo_ to kWaitlistedRoomNo. Use this
+    // when a patient is discharged or transferred out of the ward.
+    bool releaseWardBed(const std::string& patientId);
+
+    struct WardOccupancy {
+        int occupied = 0;
+        int capacity = 0;
+    };
+    WardOccupancy getIcuOccupancy() const;
+    WardOccupancy getGeneralWardOccupancy() const;
+    void printRoomOccupancy() const;
+
+   
