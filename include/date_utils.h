@@ -29,6 +29,7 @@ namespace hms::dateutils
         return era * 146097 +
                static_cast<int64_t>(doe) - 719468;
     }
+
     inline void civilFromDays(int64_t z, int &y, unsigned &m, unsigned &d)
     {
         z += 719468;
@@ -67,9 +68,40 @@ namespace hms::dateutils
 
         return oss.str();
     }
+
+    inline void parseDate(
+        const std::string &dateStr,
+        int &y,
+        unsigned &m,
+        unsigned &d)
+    {
+        y = 1970;
+        m = 1;
+        d = 1;
+
+        int py = 1970;
+        unsigned pm = 1;
+        unsigned pd = 1;
+
+        if (std::sscanf(
+                dateStr.c_str(),
+                "%d-%u-%u",
+                &py,
+                &pm,
+                &pd) == 3 &&
+            pm >= 1 && pm <= 12 &&
+            pd >= 1 && pd <= 31)
+        {
+            y = py;
+            m = pm;
+            d = pd;
+        }
+    }
+
     inline std::string today()
     {
         const auto now = std::chrono::system_clock::now();
+
         const std::time_t nowTimeT =
             std::chrono::system_clock::to_time_t(now);
 
@@ -86,26 +118,10 @@ namespace hms::dateutils
             static_cast<unsigned>(utcTm.tm_mon + 1),
             static_cast<unsigned>(utcTm.tm_mday));
     }
-    inline std::string today()
-    {
-        const auto now = std::chrono::system_clock::now();
-        const std::time_t nowTimeT =
-            std::chrono::system_clock::to_time_t(now);
 
-        std::tm utcTm{};
-
-#if defined(_WIN32)
-        gmtime_s(&utcTm, &nowTimeT);
-#else
-        gmtime_r(&nowTimeT, &utcTm);
-#endif
-
-        return formatDate(
-            utcTm.tm_year + 1900,
-            static_cast<unsigned>(utcTm.tm_mon + 1),
-            static_cast<unsigned>(utcTm.tm_mday));
-    }
-    inline std::string addDays(const std::string &dateStr, int days)
+    inline std::string addDays(
+        const std::string &dateStr,
+        int days)
     {
         int y;
         unsigned m, d;
@@ -119,6 +135,7 @@ namespace hms::dateutils
 
         return formatDate(y, m, d);
     }
+
     inline bool isPast(const std::string &dateStr)
     {
         return dateStr < today();
