@@ -12,5 +12,15 @@ include_directories(include)
 file(GLOB SOURCES "src/*.cpp")
 
 # Executable ဆော့ဖ်ဝဲလ် App ထုတ်လုပ်ခြင်း
-add_executable(hms_app ${SOURCES})
+add_executable(hms_app
+    src/main.cpp
+    src/hospital_manager.cpp
+    src/blood_bank.cpp
+    src/appointment.cpp
+    src/doctor.cpp
+    src/nurse.cpp
+    src/patient.cpp
+    src/person.cpp
+    src/user.cpp
+)
 
