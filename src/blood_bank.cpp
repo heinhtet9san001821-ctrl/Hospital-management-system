@@ -152,3 +152,54 @@ std::vector<std::string> readLines(const std::string& path) {
 }
 
 } // anonymous namespace
+
+// ---------------------------------------------------------------------
+// BloodBank - ID generation
+// ---------------------------------------------------------------------
+std::string BloodBank::generateUnitId() {
+    ++unitCounter_;
+    std::ostringstream oss;
+    oss << "BLD-" << std::setfill('0') << std::setw(4) << unitCounter_;
+    return oss.str();
+}
+
+void BloodBank::resyncCounterFromExistingUnits() {
+    for (const auto& u : units_) {
+        const std::string& id = u.getUnitId();
+        const std::string prefix = "BLD-";
+        if (id.size() > prefix.size() && id.compare(0, prefix.size(), prefix) == 0) {
+            try {
+                int n = std::stoi(id.substr(prefix.size()));
+                unitCounter_ = std::max(unitCounter_, n);
+            } catch (const std::exception&) {
+                // Non-numeric suffix on a manually-entered ID; ignore.
+            }
+        }
+    }
+}
+
+// ---------------------------------------------------------------------
+// BloodBank - donation intake
+// ---------------------------------------------------------------------
+std::string BloodBank::donateBlood(const std::string& donorName,
+                                    const std::string& donorPhone,
+                                    const std::string& bloodType,
+                                    double volumeMl,
+                                    const std::string& donationDate,
+                                    int shelfLifeDays) {
+    const std::string effectiveDonationDate =
+        donationDate.empty() ? dateutils::today() : donationDate;
+    const std::string expiryDate = dateutils::addDays(effectiveDonationDate, shelfLifeDays);
+
+    const std::string unitId = generateUnitId();
+    units_.emplace_back(unitId, bloodType, volumeMl, donorName, donorPhone,
+                         effectiveDonationDate, expiryDate,
+                         BloodUnitStatus::Available,
+                         /*usedForPatientId=*/"", /*usedForOperation=*/"", /*usedDate=*/"");
+
+    std::cout << "[BloodBank] Donation registered -> " << unitId << " ("
+              << bloodType << ", " << volumeMl << "ml from " << donorName
+              << "). Expires " << expiryDate << ".\n";
+
+    return unitId;
+}
