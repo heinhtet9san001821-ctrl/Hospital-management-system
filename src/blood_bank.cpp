@@ -323,3 +323,61 @@ const std::vector<BloodUnit>& BloodBank::getUnits() const { return units_; }
 void BloodBank::addRawUnit(const BloodUnit& unit) {
     units_.push_back(unit);
 }
+
+// ---------------------------------------------------------------------
+// BloodBank - persistence
+// ---------------------------------------------------------------------
+void BloodBank::saveToCSV(const std::string& path) {
+    std::error_code ec;
+    std::filesystem::path p(path);
+    if (p.has_parent_path()) {
+        std::filesystem::create_directories(p.parent_path(), ec);
+    }
+
+    std::ofstream file(path, std::ios::trunc);
+    if (!file.is_open()) {
+        std::cerr << "[BloodBank] Error: could not open " << path << " for writing.\n";
+        return;
+    }
+    // unitId,bloodType,volumeMl,donorName,donorPhone,donationDate,expiryDate,
+    // status,usedForPatientId,usedForOperation,usedDate
+    for (const auto& u : units_) {
+        file << sanitizeField(u.getUnitId()) << ","
+             << sanitizeField(u.getBloodType()) << ","
+             << u.getVolumeMl() << ","
+             << sanitizeField(u.getDonorName()) << ","
+             << sanitizeField(u.getDonorPhone()) << ","
+             << sanitizeField(u.getDonationDate()) << ","
+             << sanitizeField(u.getExpiryDate()) << ","
+             << bloodUnitStatusToString(u.getStatus()) << ","
+             << sanitizeField(u.getUsedForPatientId()) << ","
+             << sanitizeField(u.getUsedForOperation()) << ","
+             << sanitizeField(u.getUsedDate()) << "\n";
+    }
+}
+
+void BloodBank::loadFromCSV(const std::string& path) {
+    units_.clear();
+    for (const auto& line : readLines(path)) {
+        auto f = splitCSVLine(line);
+        if (f.size() < 11) {
+            std::cerr << "[BloodBank] Skipping malformed unit row: " << line << "\n";
+            continue;
+        }
+        units_.emplace_back(
+            trimField(f[0]),                              // unitId
+            trimField(f[1]),                              // bloodType
+            safeStod(f[2]),                                // volumeMl
+            trimField(f[3]),                              // donorName
+            trimField(f[4]),                              // donorPhone
+            trimField(f[5]),                              // donationDate
+            trimField(f[6]),                              // expiryDate
+            bloodUnitStatusFromString(trimField(f[7])),   // status
+            trimField(f[8]),                              // usedForPatientId
+            trimField(f[9]),                              // usedForOperation
+            trimField(f[10]));                            // usedDate
+    }
+    resyncCounterFromExistingUnits();
+}
+
+} // namespace hms
