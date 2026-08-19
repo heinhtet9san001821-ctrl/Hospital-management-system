@@ -1,5 +1,6 @@
 CMakeFiles/hms_app.dir/src/main.cpp.obj: \
  D:\C++\ project\Hospital\ management\ system\src\main.cpp \
+ D:/C++\ project/Hospital\ management\ system/include/hospital_manager.h \
  D:/C++\ project/Hospital\ management\ system/include/patient.h \
  D:/C++\ project/Hospital\ management\ system/include/person.h \
  C:/msys64/ucrt64/include/c++/15.2.0/string \
@@ -99,6 +100,15 @@ CMakeFiles/hms_app.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/15.2.0/tuple \
+ D:/C++\ project/Hospital\ management\ system/include/doctor.h \
+ D:/C++\ project/Hospital\ management\ system/include/nurse.h \
+ D:/C++\ project/Hospital\ management\ system/include/user.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/vector \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/vector.tcc \
+ D:/C++\ project/Hospital\ management\ system/include/patient.h \
  D:/C++\ project/Hospital\ management\ system/include/doctor.h \
  D:/C++\ project/Hospital\ management\ system/include/nurse.h \
  D:/C++\ project/Hospital\ management\ system/include/user.h \

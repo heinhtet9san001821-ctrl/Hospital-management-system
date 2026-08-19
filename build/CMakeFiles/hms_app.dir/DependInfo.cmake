@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/C++ project/Hospital management system/src/blood_bank.cpp" "CMakeFiles/hms_app.dir/src/blood_bank.cpp.obj" "gcc" "CMakeFiles/hms_app.dir/src/blood_bank.cpp.obj.d"
   "D:/C++ project/Hospital management system/src/doctor.cpp" "CMakeFiles/hms_app.dir/src/doctor.cpp.obj" "gcc" "CMakeFiles/hms_app.dir/src/doctor.cpp.obj.d"
   "D:/C++ project/Hospital management system/src/hospital_manager.cpp" "CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj" "gcc" "CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj.d"
   "D:/C++ project/Hospital management system/src/main.cpp" "CMakeFiles/hms_app.dir/src/main.cpp.obj" "gcc" "CMakeFiles/hms_app.dir/src/main.cpp.obj.d"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/hms_app.dir/src/blood_bank.cpp.obj"
+  "CMakeFiles/hms_app.dir/src/blood_bank.cpp.obj.d"
   "CMakeFiles/hms_app.dir/src/doctor.cpp.obj"
   "CMakeFiles/hms_app.dir/src/doctor.cpp.obj.d"
   "CMakeFiles/hms_app.dir/src/hospital_manager.cpp.obj"

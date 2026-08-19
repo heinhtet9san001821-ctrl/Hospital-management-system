@@ -128,6 +128,30 @@ hms_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hms_app.dir\build.make CMakeFiles/hms_app.dir/build
 .PHONY : hms_app/fast
 
+src/blood_bank.obj: src/blood_bank.cpp.obj
+.PHONY : src/blood_bank.obj
+
+# target to build an object file
+src/blood_bank.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hms_app.dir\build.make CMakeFiles/hms_app.dir/src/blood_bank.cpp.obj
+.PHONY : src/blood_bank.cpp.obj
+
+src/blood_bank.i: src/blood_bank.cpp.i
+.PHONY : src/blood_bank.i
+
+# target to preprocess a source file
+src/blood_bank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hms_app.dir\build.make CMakeFiles/hms_app.dir/src/blood_bank.cpp.i
+.PHONY : src/blood_bank.cpp.i
+
+src/blood_bank.s: src/blood_bank.cpp.s
+.PHONY : src/blood_bank.s
+
+# target to generate assembly for a file
+src/blood_bank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hms_app.dir\build.make CMakeFiles/hms_app.dir/src/blood_bank.cpp.s
+.PHONY : src/blood_bank.cpp.s
+
 src/doctor.obj: src/doctor.cpp.obj
 .PHONY : src/doctor.obj
 
@@ -305,6 +329,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... hms_app
+	@echo ... src/blood_bank.obj
+	@echo ... src/blood_bank.i
+	@echo ... src/blood_bank.s
 	@echo ... src/doctor.obj
 	@echo ... src/doctor.i
 	@echo ... src/doctor.s
