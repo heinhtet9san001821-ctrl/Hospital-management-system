@@ -92,3 +92,63 @@ void BloodUnit::displayDetails() const {
     }
     std::cout << "----------------------------\n";
 }
+
+// ---------------------------------------------------------------------
+// BloodBank - internal helpers
+// ---------------------------------------------------------------------
+namespace {
+
+std::string trimField(const std::string& s) {
+    const std::string whitespace = " \t\r\n";
+    const auto start = s.find_first_not_of(whitespace);
+    if (start == std::string::npos) return "";
+    const auto end = s.find_last_not_of(whitespace);
+    return s.substr(start, end - start + 1);
+}
+
+std::string sanitizeField(const std::string& value) {
+    std::string result;
+    result.reserve(value.size());
+    for (char c : value) {
+        if (c == ',') result += ';';
+        else if (c == '\n' || c == '\r') result += ' ';
+        else result += c;
+    }
+    return result;
+}
+
+std::vector<std::string> splitCSVLine(const std::string& line) {
+    std::vector<std::string> fields;
+    std::string current;
+    std::stringstream ss(line);
+    while (std::getline(ss, current, ',')) {
+        fields.push_back(current);
+    }
+    if (!line.empty() && line.back() == ',') {
+        fields.emplace_back("");
+    }
+    return fields;
+}
+
+double safeStod(const std::string& value, double fallback = 0.0) {
+    const std::string trimmed = trimField(value);
+    if (trimmed.empty()) return fallback;
+    try {
+        return std::stod(trimmed);
+    } catch (const std::exception&) {
+        return fallback;
+    }
+}
+
+std::vector<std::string> readLines(const std::string& path) {
+    std::vector<std::string> lines;
+    std::ifstream file(path);
+    if (!file.is_open()) return lines;
+    std::string line;
+    while (std::getline(file, line)) {
+        if (!trimField(line).empty()) lines.push_back(line);
+    }
+    return lines;
+}
+
+} // anonymous namespace
