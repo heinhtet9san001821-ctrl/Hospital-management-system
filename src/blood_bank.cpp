@@ -74,3 +74,21 @@ void BloodUnit::setStatus(BloodUnitStatus status) { status_ = status; }
 void BloodUnit::setUsedForPatientId(const std::string& patientId) { usedForPatientId_ = patientId; }
 void BloodUnit::setUsedForOperation(const std::string& operationReason) { usedForOperation_ = operationReason; }
 void BloodUnit::setUsedDate(const std::string& usedDate) { usedDate_ = usedDate; }
+
+void BloodUnit::displayDetails() const {
+    std::cout << "----- Blood Unit Details -----\n";
+    std::cout << "Unit ID         : " << unitId_ << "\n";
+    std::cout << "Blood Type      : " << bloodType_ << "\n";
+    std::cout << "Volume (ml)     : " << volumeMl_ << "\n";
+    std::cout << "Donor Name      : " << donorName_ << "\n";
+    std::cout << "Donor Phone     : " << donorPhone_ << "\n";
+    std::cout << "Donation Date   : " << donationDate_ << "\n";
+    std::cout << "Expiry Date     : " << expiryDate_ << "\n";
+    std::cout << "Status          : " << bloodUnitStatusToString(status_) << "\n";
+    if (status_ == BloodUnitStatus::Used) {
+        std::cout << "Used For Patient: " << usedForPatientId_ << "\n";
+        std::cout << "Used For Op.    : " << usedForOperation_ << "\n";
+        std::cout << "Used Date       : " << usedDate_ << "\n";
+    }
+    std::cout << "----------------------------\n";
+}
