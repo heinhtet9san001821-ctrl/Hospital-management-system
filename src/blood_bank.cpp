@@ -241,3 +241,47 @@ BloodUnit* BloodBank::issueBlood(const std::string& bloodType,
 
     return best;
 }
+
+// ---------------------------------------------------------------------
+// BloodBank - housekeeping
+// ---------------------------------------------------------------------
+int BloodBank::refreshExpiredUnits() {
+    int expiredCount = 0;
+    const std::string todayStr = dateutils::today();
+    for (auto& u : units_) {
+        const bool isActive = (u.getStatus() == BloodUnitStatus::Available ||
+                                u.getStatus() == BloodUnitStatus::Reserved);
+        if (isActive && u.getExpiryDate() < todayStr) {
+            u.setStatus(BloodUnitStatus::Expired);
+            ++expiredCount;
+        }
+    }
+    if (expiredCount > 0) {
+        std::cout << "[BloodBank] " << expiredCount
+                  << " unit(s) newly marked Expired.\n";
+    }
+    return expiredCount;
+}
+
+// ---------------------------------------------------------------------
+// BloodBank - lookup
+// ---------------------------------------------------------------------
+BloodUnit* BloodBank::findUnitById(const std::string& unitId) {
+    for (auto& u : units_) {
+        if (u.getUnitId() == unitId) return &u;
+    }
+    return nullptr;
+}
+
+std::vector<BloodUnit*> BloodBank::findAvailableByType(const std::string& bloodType) {
+    std::vector<BloodUnit*> result;
+    for (auto& u : units_) {
+        if (u.getBloodType() == bloodType && u.getStatus() == BloodUnitStatus::Available) {
+            result.push_back(&u);
+        }
+    }
+    std::sort(result.begin(), result.end(), [](const BloodUnit* a, const BloodUnit* b) {
+        return a->getExpiryDate() < b->getExpiryDate();
+    });
+    return result;
+}
