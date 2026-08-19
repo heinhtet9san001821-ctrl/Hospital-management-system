@@ -71,3 +71,76 @@ private:
     std::string usedForOperation_;   // e.g. "Emergency Surgery - RTA", empty until issued
     std::string usedDate_;           // empty until issued
 };
+
+// Manages the full blood-unit inventory: donation intake, issuing units
+// for treatment/surgery, expiry housekeeping, inventory reporting, and
+// CSV persistence. Designed to be owned as a member of HospitalManager,
+// but usable standalone.
+class BloodBank {
+public:
+    BloodBank() = default;
+
+    // ---- Donation intake ----
+    // Registers a new donated unit and computes its expiry date
+    // automatically (donationDate + shelfLifeDays, default 42 days for
+    // whole blood). If donationDate is left empty, today's date is used.
+    // Returns the newly generated unit ID.
+    std::string donateBlood(const std::string& donorName,
+                             const std::string& donorPhone,
+                             const std::string& bloodType,
+                             double volumeMl,
+                             const std::string& donationDate = "",
+                             int shelfLifeDays = 42);
+
+    // ---- Issuing blood for treatment ----
+    // Finds the soonest-expiring Available unit of the requested blood
+    // type (a "first-expiry-first-out" policy, standard blood-bank
+    // practice for minimizing wastage), marks it Used, and records who
+    // it was used for and why. Returns a pointer to the issued unit, or
+    // nullptr if no matching unit is currently available.
+    BloodUnit* issueBlood(const std::string& bloodType,
+                          const std::string& patientId,
+                          const std::string& operationReason,
+                          const std::string& usedDate = "");
+
+    // ---- Housekeeping ----
+    // Scans the inventory and flips any Available/Reserved unit whose
+    // expiry date has passed into Expired status. Returns how many
+    // units were newly marked expired. Safe to call at any time, e.g.
+    // once at startup and again before issuing a unit.
+    int refreshExpiredUnits();
+
+    // ---- Lookup ----
+    BloodUnit* findUnitById(const std::string& unitId);
+    std::vector<BloodUnit*> findAvailableByType(const std::string& bloodType);
+
+    // ---- Reporting ----
+    struct InventorySummaryEntry {
+        int unitCount = 0;
+        double totalVolumeMl = 0.0;
+    };
+    // Available-only inventory, grouped by blood type.
+    std::map<std::string, InventorySummaryEntry> getInventorySummary() const;
+    void printInventorySummary() const;
+
+    // ---- Raw access (used by HospitalManager / CSV loader) ----
+    const std::vector<BloodUnit>& getUnits() const;
+    void addRawUnit(const BloodUnit& unit);
+
+    // ---- Persistence ----
+    void saveToCSV(const std::string& path = "data/bloodbank.csv");
+    void loadFromCSV(const std::string& path = "data/bloodbank.csv");
+
+private:
+    std::vector<BloodUnit> units_;
+    int unitCounter_ = 0;
+
+    std::string generateUnitId();
+    // Rescans units_ for the highest existing "BLD-####" id so the
+    // counter never collides with data reloaded from CSV.
+    void resyncCounterFromExistingUnits();
+};
+
+} // namespace hms
+
+#endif // HMS_BLOOD_BANK_H
