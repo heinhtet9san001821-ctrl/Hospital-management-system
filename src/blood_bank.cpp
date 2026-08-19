@@ -285,3 +285,41 @@ std::vector<BloodUnit*> BloodBank::findAvailableByType(const std::string& bloodT
     });
     return result;
 }
+
+// ---------------------------------------------------------------------
+// BloodBank - reporting
+// ---------------------------------------------------------------------
+std::map<std::string, BloodBank::InventorySummaryEntry> BloodBank::getInventorySummary() const {
+    std::map<std::string, InventorySummaryEntry> summary;
+    for (const auto& u : units_) {
+        if (u.getStatus() != BloodUnitStatus::Available) continue;
+        auto& entry = summary[u.getBloodType()];
+        entry.unitCount += 1;
+        entry.totalVolumeMl += u.getVolumeMl();
+    }
+    return summary;
+}
+
+void BloodBank::printInventorySummary() const {
+    const auto summary = getInventorySummary();
+    std::cout << "===== Blood Bank Inventory (Available) =====\n";
+    if (summary.empty()) {
+        std::cout << "  (no available units)\n";
+    } else {
+        for (const auto& [type, entry] : summary) {
+            std::cout << "  " << std::left << std::setw(5) << type
+                      << " : " << entry.unitCount << " unit(s), "
+                      << entry.totalVolumeMl << " ml total\n";
+        }
+    }
+    std::cout << "==============================================\n";
+}
+
+// ---------------------------------------------------------------------
+// BloodBank - raw access
+// ---------------------------------------------------------------------
+const std::vector<BloodUnit>& BloodBank::getUnits() const { return units_; }
+
+void BloodBank::addRawUnit(const BloodUnit& unit) {
+    units_.push_back(unit);
+}
