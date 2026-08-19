@@ -203,3 +203,41 @@ std::string BloodBank::donateBlood(const std::string& donorName,
 
     return unitId;
 }
+
+// ---------------------------------------------------------------------
+// BloodBank - issuing
+// ---------------------------------------------------------------------
+BloodUnit* BloodBank::issueBlood(const std::string& bloodType,
+                                  const std::string& patientId,
+                                  const std::string& operationReason,
+                                  const std::string& usedDate) {
+    refreshExpiredUnits();
+
+    BloodUnit* best = nullptr;
+    for (auto& u : units_) {
+        if (u.getBloodType() != bloodType) continue;
+        if (u.getStatus() != BloodUnitStatus::Available) continue;
+        // First-expiry-first-out: prefer the unit that expires soonest,
+        // which is standard blood-bank practice to minimize wastage.
+        if (best == nullptr || u.getExpiryDate() < best->getExpiryDate()) {
+            best = &u;
+        }
+    }
+
+    if (best == nullptr) {
+        std::cout << "[BloodBank] No available unit of type " << bloodType
+                  << " for patient " << patientId << ".\n";
+        return nullptr;
+    }
+
+    best->setStatus(BloodUnitStatus::Used);
+    best->setUsedForPatientId(patientId);
+    best->setUsedForOperation(operationReason);
+    best->setUsedDate(usedDate.empty() ? dateutils::today() : usedDate);
+
+    std::cout << "[BloodBank] Issued unit " << best->getUnitId() << " ("
+              << bloodType << ") to patient " << patientId << " for \""
+              << operationReason << "\".\n";
+
+    return best;
+}
