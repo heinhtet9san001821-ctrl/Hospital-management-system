@@ -1,0 +1,1000 @@
+R121|Semi-Private|Reserved|PAT-0001 
+R122|Semi-Private|Reserved|PAT-DEMO-02
+R123|Semi-Private|Reserved|PAT-DEMO-02
+R124|Semi-Private|Reserved|PAT-DEMO-02
+R125|Semi-Private|Reserved|PAT-DEMO-02
+R126|Semi-Private|Reserved|PAT-DEMO-02
+R144|Semi-Private|Reserved|PAT-DEMO-01
+R442|VIP|Reserved|PAT-DEMO-02
+R916|Isolation|Reserved|PAT-DEMO-06
+R917|Semi-Private|Vacant|
+R918|Semi-Private|Vacant|
+R919|Semi-Private|Vacant|
+R920|Semi-Private|Vacant|
+R921|Semi-Private|Vacant|
+R922|Semi-Private|Vacant|
+R923|Semi-Private|Vacant|
+R924|Semi-Private|Vacant|
+R925|Semi-Private|Vacant|
+R926|Semi-Private|Vacant|
+R927|Semi-Private|Vacant|
+R928|Semi-Private|Vacant|
+R929|Semi-Private|Vacant|
+R930|Semi-Private|Vacant|
+R931|Semi-Private|Vacant|
+R932|Semi-Private|Vacant|
+R933|Semi-Private|Vacant|
+R934|Semi-Private|Vacant|
+R935|Semi-Private|Vacant|
+R936|Semi-Private|Vacant|
+R937|Semi-Private|Vacant|
+R938|Semi-Private|Vacant|
+R939|Semi-Private|Vacant|
+R940|Semi-Private|Vacant|
+R941|Semi-Private|Vacant|
+R942|Semi-Private|Vacant|
+R943|Semi-Private|Vacant|
+R944|Semi-Private|Vacant|
+R945|Semi-Private|Vacant|
+R946|Semi-Private|Vacant|
+R947|Semi-Private|Vacant|
+R948|Semi-Private|Vacant|
+R949|Semi-Private|Vacant|
+R950|Semi-Private|Vacant|
+R951|Semi-Private|Vacant|
+R952|Semi-Private|Vacant|
+R953|Semi-Private|Vacant|
+R954|Semi-Private|Vacant|
+R955|Semi-Private|Vacant|
+R956|Semi-Private|Vacant|
+R957|Semi-Private|Vacant|
+R958|Semi-Private|Vacant|
+R959|Semi-Private|Vacant|
+R960|Semi-Private|Vacant|
+R961|Semi-Private|Vacant|
+R962|Semi-Private|Vacant|
+R963|Semi-Private|Vacant|
+R964|Semi-Private|Vacant|
+R965|Semi-Private|Vacant|
+R966|Semi-Private|Vacant|
+R967|Semi-Private|Vacant|
+R968|Semi-Private|Vacant|
+R969|Semi-Private|Vacant|
+R970|Semi-Private|Vacant|
+R971|Semi-Private|Vacant|
+R972|Semi-Private|Vacant|
+R973|Semi-Private|Vacant|
+R974|Semi-Private|Vacant|
+R975|Semi-Private|Vacant|
+R976|Semi-Private|Vacant|
+R977|Semi-Private|Vacant|
+R978|Semi-Private|Vacant|
+R979|Semi-Private|Vacant|
+R980|Semi-Private|Vacant|
+R981|Semi-Private|Vacant|
+R982|Semi-Private|Vacant|
+R983|Semi-Private|Vacant|
+R984|Semi-Private|Vacant|
+R985|Semi-Private|Vacant|
+R986|Semi-Private|Vacant|
+R987|Semi-Private|Vacant|
+R988|Semi-Private|Vacant|
+R989|Semi-Private|Vacant|
+R990|Semi-Private|Vacant|
+R991|Semi-Private|Vacant|
+R992|Semi-Private|Vacant|
+R993|Semi-Private|Vacant|
+R994|Semi-Private|Vacant|
+R995|Semi-Private|Vacant|
+R996|Semi-Private|Vacant|
+R997|Semi-Private|Vacant|
+R998|Semi-Private|Vacant|
+R999|Semi-Private|Vacant|
+R1000|Semi-Private|Vacant|
+R1001|Semi-Private|Vacant|
+R1002|Semi-Private|Vacant|
+R1003|Semi-Private|Vacant|
+R1004|Semi-Private|Vacant|
+R1005|Semi-Private|Vacant|
+R1006|Semi-Private|Vacant|
+R1007|Semi-Private|Vacant|
+R1008|Semi-Private|Vacant|
+R1009|Semi-Private|Vacant|
+R1010|Semi-Private|Vacant|
+R1011|Semi-Private|Vacant|
+R1012|Semi-Private|Vacant|
+R1013|Semi-Private|Vacant|
+R1014|Semi-Private|Vacant|
+R1015|Semi-Private|Vacant|
+R1016|Semi-Private|Vacant|
+R1017|Semi-Private|Vacant|
+R1018|Semi-Private|Vacant|
+R1019|Semi-Private|Vacant|
+R1020|Semi-Private|Vacant|
+R1021|Semi-Private|Vacant|
+R1022|Semi-Private|Vacant|
+R1023|Semi-Private|Vacant|
+R1024|Semi-Private|Vacant|
+R1025|Semi-Private|Vacant|
+R1026|Semi-Private|Vacant|
+R1027|Semi-Private|Vacant|
+R1028|Semi-Private|Vacant|
+R1029|Semi-Private|Vacant|
+R1030|Semi-Private|Vacant|
+R1031|Semi-Private|Vacant|
+R1032|Semi-Private|Vacant|
+R1033|Semi-Private|Vacant|
+R1034|Semi-Private|Vacant|
+R1035|Semi-Private|Vacant|
+R1036|Semi-Private|Vacant|
+R1037|Semi-Private|Vacant|
+R1038|Semi-Private|Vacant|
+R1039|Semi-Private|Vacant|
+R1040|Semi-Private|Vacant|
+R1041|Semi-Private|Vacant|
+R1042|Semi-Private|Vacant|
+R1043|Semi-Private|Vacant|
+R1044|Semi-Private|Vacant|
+R1045|Semi-Private|Vacant|
+R1046|Semi-Private|Vacant|
+R1047|Semi-Private|Vacant|
+R1048|Semi-Private|Vacant|
+R1049|Semi-Private|Vacant|
+R1050|Semi-Private|Vacant|
+R1051|Semi-Private|Vacant|
+R1052|Semi-Private|Vacant|
+R1053|Semi-Private|Vacant|
+R1054|Semi-Private|Vacant|
+R1055|Semi-Private|Vacant|
+R1056|Semi-Private|Vacant|
+R1057|Semi-Private|Vacant|
+R1058|Semi-Private|Vacant|
+R1059|Semi-Private|Vacant|
+R1060|Private|Vacant|
+R1061|Private|Vacant|
+R1062|Private|Vacant|
+R1063|Private|Vacant|
+R1064|Private|Vacant|
+R1065|Private|Vacant|
+R1066|Private|Vacant|
+R1067|Private|Vacant|
+R1068|Private|Vacant|
+R1069|Private|Vacant|
+R1070|Private|Vacant|
+R1071|Private|Vacant|
+R1072|Private|Vacant|
+R1073|Private|Vacant|
+R1074|Private|Vacant|
+R1075|Private|Vacant|
+R1076|Private|Vacant|
+R1077|Private|Vacant|
+R1078|Private|Vacant|
+R1079|Private|Vacant|
+R1080|Private|Vacant|
+R1081|Private|Vacant|
+R1082|Private|Vacant|
+R1083|Private|Vacant|
+R1084|Private|Vacant|
+R1085|Private|Vacant|
+R1086|Private|Vacant|
+R1087|Private|Vacant|
+R1088|Private|Vacant|
+R1089|Private|Vacant|
+R1090|Private|Vacant|
+R1091|Private|Vacant|
+R1092|Private|Vacant|
+R1093|Private|Vacant|
+R1094|Private|Vacant|
+R1095|Private|Vacant|
+R1096|Private|Vacant|
+R1097|Private|Vacant|
+R1098|Private|Vacant|
+R1099|Private|Vacant|
+R1100|Private|Vacant|
+R1101|Private|Vacant|
+R1102|Private|Vacant|
+R1103|Private|Vacant|
+R1104|Private|Vacant|
+R1105|Private|Vacant|
+R1106|Private|Vacant|
+R1107|Private|Vacant|
+R1108|Private|Vacant|
+R1109|Private|Vacant|
+R1110|Private|Vacant|
+R1111|Private|Vacant|
+R1112|Private|Vacant|
+R1113|Private|Vacant|
+R1114|Private|Vacant|
+R1115|Private|Vacant|
+R1116|Private|Vacant|
+R1117|Private|Vacant|
+R1118|Private|Vacant|
+R1119|Private|Vacant|
+R1120|Private|Vacant|
+R1121|Private|Vacant|
+R1122|Private|Vacant|
+R1123|Private|Vacant|
+R1124|Private|Vacant|
+R1125|Private|Vacant|
+R1126|Private|Vacant|
+R1127|Private|Vacant|
+R1128|Private|Vacant|
+R1129|Private|Vacant|
+R1130|Private|Vacant|
+R1131|Private|Vacant|
+R1132|Private|Vacant|
+R1133|Private|Vacant|
+R1134|Private|Vacant|
+R1135|Private|Vacant|
+R1136|Private|Vacant|
+R1137|Private|Vacant|
+R1138|Private|Vacant|
+R1139|Private|Vacant|
+R1140|Private|Vacant|
+R1141|Private|Vacant|
+R1142|Private|Vacant|
+R1143|Private|Vacant|
+R1144|Private|Vacant|
+R1145|Private|Vacant|
+R1146|Private|Vacant|
+R1147|Private|Vacant|
+R1148|Private|Vacant|
+R1149|Private|Vacant|
+R1150|Private|Vacant|
+R1151|Private|Vacant|
+R1152|Private|Vacant|
+R1153|Private|Vacant|
+R1154|Private|Vacant|
+R1155|Private|Vacant|
+R1156|Private|Vacant|
+R1157|Private|Vacant|
+R1158|Private|Vacant|
+R1159|Private|Vacant|
+R1160|Private|Vacant|
+R1161|Private|Vacant|
+R1162|Private|Vacant|
+R1163|Private|Vacant|
+R1164|Private|Vacant|
+R1165|Private|Vacant|
+R1166|Private|Vacant|
+R1167|Private|Vacant|
+R1168|Private|Vacant|
+R1169|Private|Vacant|
+R1170|Private|Vacant|
+R1171|Private|Vacant|
+R1172|Private|Vacant|
+R1173|Private|Vacant|
+R1174|Private|Vacant|
+R1175|Private|Vacant|
+R1176|Private|Vacant|
+R1177|Private|Vacant|
+R1178|Private|Vacant|
+R1179|Private|Vacant|
+R1180|VIP|Vacant|
+R1181|VIP|Vacant|
+R1182|VIP|Vacant|
+R1183|VIP|Vacant|
+R1184|VIP|Vacant|
+R1185|VIP|Vacant|
+R1186|VIP|Vacant|
+R1187|VIP|Vacant|
+R1188|VIP|Vacant|
+R1189|VIP|Vacant|
+R1190|VIP|Vacant|
+R1191|VIP|Vacant|
+R1192|VIP|Vacant|
+R1193|VIP|Vacant|
+R1194|VIP|Vacant|
+R1195|VIP|Vacant|
+R1196|VIP|Vacant|
+R1197|VIP|Vacant|
+R1198|VIP|Vacant|
+R1199|VIP|Vacant|
+R1200|VIP|Vacant|
+R1201|VIP|Vacant|
+R1202|VIP|Vacant|
+R1203|VIP|Vacant|
+R1204|VIP|Vacant|
+R1205|VIP|Vacant|
+R1206|VIP|Vacant|
+R1207|VIP|Vacant|
+R1208|VIP|Vacant|
+R1209|VIP|Vacant|
+R1210|VIP|Vacant|
+R1211|VIP|Vacant|
+R1212|VIP|Vacant|
+R1213|VIP|Vacant|
+R1214|VIP|Vacant|
+R1215|VIP|Vacant|
+R1216|VIP|Vacant|
+R1217|VIP|Vacant|
+R1218|VIP|Vacant|
+R1219|VIP|Vacant|
+R1220|VIP|Vacant|
+R1221|VIP|Vacant|
+R1222|VIP|Vacant|
+R1223|VIP|Vacant|
+R1224|VIP|Vacant|
+R1225|VIP|Vacant|
+R1226|VIP|Vacant|
+R1227|VIP|Vacant|
+R1228|VIP|Vacant|
+R1229|VIP|Vacant|
+R1230|VIP|Vacant|
+R1231|VIP|Vacant|
+R1232|VIP|Vacant|
+R1233|VIP|Vacant|
+R1234|VIP|Vacant|
+R1235|VIP|Vacant|
+R1236|VIP|Vacant|
+R1237|VIP|Vacant|
+R1238|VIP|Vacant|
+R1239|VIP|Vacant|
+R1240|VIP|Vacant|
+R1241|VIP|Vacant|
+R1242|VIP|Vacant|
+R1243|VIP|Vacant|
+R1244|VIP|Vacant|
+R1245|VIP|Vacant|
+R1246|VIP|Vacant|
+R1247|VIP|Vacant|
+R1248|VIP|Vacant|
+R1249|VIP|Vacant|
+R1250|VIP|Vacant|
+R1251|VIP|Vacant|
+R1252|VIP|Vacant|
+R1253|VIP|Vacant|
+R1254|VIP|Vacant|
+R1255|VIP|Vacant|
+R1256|VIP|Vacant|
+R1257|VIP|Vacant|
+R1258|VIP|Vacant|
+R1259|Critical Care|Vacant|
+R1260|Critical Care|Vacant|
+R1261|Critical Care|Vacant|
+R1262|Critical Care|Vacant|
+R1263|Critical Care|Vacant|
+R1264|Critical Care|Vacant|
+R1265|Critical Care|Vacant|
+R1266|Critical Care|Vacant|
+R1267|Critical Care|Vacant|
+R1268|Critical Care|Vacant|
+R1269|Critical Care|Vacant|
+R1270|Critical Care|Vacant|
+R1271|Critical Care|Vacant|
+R1272|Critical Care|Vacant|
+R1273|Critical Care|Vacant|
+R1274|Critical Care|Vacant|
+R1275|Critical Care|Vacant|
+R1276|Critical Care|Vacant|
+R1277|Critical Care|Vacant|
+R1278|Critical Care|Vacant|
+R1279|Critical Care|Vacant|
+R1280|Critical Care|Vacant|
+R1281|Critical Care|Vacant|
+R1282|Critical Care|Vacant|
+R1283|Critical Care|Vacant|
+R1284|Critical Care|Vacant|
+R1285|Critical Care|Vacant|
+R1286|Critical Care|Vacant|
+R1287|Critical Care|Vacant|
+R1288|Critical Care|Vacant|
+R1289|Critical Care|Vacant|
+R1290|Critical Care|Vacant|
+R1291|Critical Care|Vacant|
+R1292|Critical Care|Vacant|
+R1293|Critical Care|Vacant|
+R1294|Critical Care|Vacant|
+R1295|Critical Care|Vacant|
+R1296|Critical Care|Vacant|
+R1297|Critical Care|Vacant|
+R1298|Critical Care|Vacant|
+R1299|Critical Care|Vacant|
+R1300|Critical Care|Vacant|
+R1301|Critical Care|Vacant|
+R1302|Critical Care|Vacant|
+R1303|Critical Care|Vacant|
+R1304|Critical Care|Vacant|
+R1305|Critical Care|Vacant|
+R1306|Critical Care|Vacant|
+R1307|Critical Care|Vacant|
+R1308|Critical Care|Vacant|
+R1309|Critical Care|Vacant|
+R1310|Critical Care|Vacant|
+R1311|Critical Care|Vacant|
+R1312|Critical Care|Vacant|
+R1313|Critical Care|Vacant|
+R1314|Critical Care|Vacant|
+R1315|Critical Care|Vacant|
+R1316|Critical Care|Vacant|
+R1317|Critical Care|Vacant|
+R1318|Critical Care|Vacant|
+R1319|Critical Care|Vacant|
+R1320|Critical Care|Vacant|
+R1321|Critical Care|Vacant|
+R1322|Critical Care|Vacant|
+R1323|Critical Care|Vacant|
+R1324|Critical Care|Vacant|
+R1325|Critical Care|Vacant|
+R1326|Critical Care|Vacant|
+R1327|Critical Care|Vacant|
+R1328|Critical Care|Vacant|
+R1329|Critical Care|Vacant|
+R1330|Critical Care|Vacant|
+R1331|Critical Care|Vacant|
+R1332|Critical Care|Vacant|
+R1333|Critical Care|Vacant|
+R1334|Critical Care|Vacant|
+R1335|Critical Care|Vacant|
+R1336|Critical Care|Vacant|
+R1337|Critical Care|Vacant|
+R1338|Critical Care|Vacant|
+R1339|Critical Care|Vacant|
+R1340|Critical Care|Vacant|
+R1341|Critical Care|Vacant|
+R1342|Critical Care|Vacant|
+R1343|Critical Care|Vacant|
+R1344|Critical Care|Vacant|
+R1345|Critical Care|Vacant|
+R1346|Critical Care|Vacant|
+R1347|Critical Care|Vacant|
+R1348|Critical Care|Vacant|
+R1349|Critical Care|Vacant|
+R1350|Critical Care|Vacant|
+R1351|Critical Care|Vacant|
+R1352|Critical Care|Vacant|
+R1353|Critical Care|Vacant|
+R1354|Critical Care|Vacant|
+R1355|Critical Care|Vacant|
+R1356|Critical Care|Vacant|
+R1357|Critical Care|Vacant|
+R1358|Critical Care|Vacant|
+R1359|Isolation|Vacant|
+R1360|Isolation|Vacant|
+R1361|Isolation|Vacant|
+R1362|Isolation|Vacant|
+R1363|Isolation|Vacant|
+R1364|Isolation|Vacant|
+R1365|Isolation|Vacant|
+R1366|Isolation|Vacant|
+R1367|Isolation|Vacant|
+R1368|Isolation|Vacant|
+R1369|Isolation|Vacant|
+R1370|Isolation|Vacant|
+R1371|Isolation|Vacant|
+R1372|Isolation|Vacant|
+R1373|Isolation|Vacant|
+R1374|Isolation|Vacant|
+R1375|Isolation|Vacant|
+R1376|Isolation|Vacant|
+R1377|Isolation|Vacant|
+R1378|Isolation|Vacant|
+R1379|Isolation|Vacant|
+R1380|Isolation|Vacant|
+R1381|Isolation|Vacant|
+R1382|Isolation|Vacant|
+R1383|Isolation|Vacant|
+R1384|Isolation|Vacant|
+R1385|Isolation|Vacant|
+R1386|Isolation|Vacant|
+R1387|Isolation|Vacant|
+R1388|Isolation|Vacant|
+R1389|Isolation|Vacant|
+R1390|Isolation|Vacant|
+R1391|Isolation|Vacant|
+R1392|Isolation|Vacant|
+R1393|Isolation|Vacant|
+R1394|Isolation|Vacant|
+R1395|Isolation|Vacant|
+R1396|Isolation|Vacant|
+R1397|Isolation|Vacant|
+R1398|Isolation|Vacant|
+R1399|Isolation|Vacant|
+R1400|Isolation|Vacant|
+R1401|Isolation|Vacant|
+R1402|Isolation|Vacant|
+R1403|Isolation|Vacant|
+R1404|Isolation|Vacant|
+R1405|Isolation|Vacant|
+R1406|Isolation|Vacant|
+R1407|Isolation|Vacant|
+R1408|General Ward|Vacant|
+R1409|General Ward|Vacant|
+R1410|General Ward|Vacant|
+R1411|General Ward|Vacant|
+R1412|General Ward|Vacant|
+R1413|General Ward|Vacant|
+R1414|General Ward|Vacant|
+R1415|General Ward|Vacant|
+R1416|General Ward|Vacant|
+R1417|General Ward|Vacant|
+R1418|General Ward|Vacant|
+R1419|General Ward|Vacant|
+R1420|General Ward|Vacant|
+R1421|General Ward|Vacant|
+R1422|General Ward|Vacant|
+R1423|General Ward|Vacant|
+R1424|General Ward|Vacant|
+R1425|General Ward|Vacant|
+R1426|General Ward|Vacant|
+R1427|General Ward|Vacant|
+R1428|General Ward|Vacant|
+R1429|General Ward|Vacant|
+R1430|General Ward|Vacant|
+R1431|General Ward|Vacant|
+R1432|General Ward|Vacant|
+R1433|General Ward|Vacant|
+R1434|General Ward|Vacant|
+R1435|General Ward|Vacant|
+R1436|General Ward|Vacant|
+R1437|General Ward|Vacant|
+R1438|General Ward|Vacant|
+R1439|General Ward|Vacant|
+R1440|General Ward|Vacant|
+R1441|General Ward|Vacant|
+R1442|General Ward|Vacant|
+R1443|General Ward|Vacant|
+R1444|General Ward|Vacant|
+R1445|General Ward|Vacant|
+R1446|General Ward|Vacant|
+R1447|General Ward|Vacant|
+R1448|General Ward|Vacant|
+R1449|General Ward|Vacant|
+R1450|General Ward|Vacant|
+R1451|General Ward|Vacant|
+R1452|General Ward|Vacant|
+R1453|General Ward|Vacant|
+R1454|General Ward|Vacant|
+R1455|General Ward|Vacant|
+R1456|General Ward|Vacant|
+R1457|General Ward|Vacant|
+R1458|General Ward|Vacant|
+R1459|General Ward|Vacant|
+R1460|General Ward|Vacant|
+R1461|General Ward|Vacant|
+R1462|General Ward|Vacant|
+R1463|General Ward|Vacant|
+R1464|General Ward|Vacant|
+R1465|General Ward|Vacant|
+R1466|General Ward|Vacant|
+R1467|General Ward|Vacant|
+R1468|General Ward|Vacant|
+R1469|General Ward|Vacant|
+R1470|General Ward|Vacant|
+R1471|General Ward|Vacant|
+R1472|General Ward|Vacant|
+R1473|General Ward|Vacant|
+R1474|General Ward|Vacant|
+R1475|General Ward|Vacant|
+R1476|General Ward|Vacant|
+R1477|General Ward|Vacant|
+R1478|General Ward|Vacant|
+R1479|General Ward|Vacant|
+R1480|General Ward|Vacant|
+R1481|General Ward|Vacant|
+R1482|General Ward|Vacant|
+R1483|General Ward|Vacant|
+R1484|General Ward|Vacant|
+R1485|General Ward|Vacant|
+R1486|General Ward|Vacant|
+R1487|General Ward|Vacant|
+R1488|General Ward|Vacant|
+R1489|General Ward|Vacant|
+R1490|General Ward|Vacant|
+R1491|General Ward|Vacant|
+R1492|General Ward|Vacant|
+R1493|General Ward|Vacant|
+R1494|General Ward|Vacant|
+R1495|General Ward|Vacant|
+R1496|General Ward|Vacant|
+R1497|General Ward|Vacant|
+R1498|General Ward|Vacant|
+R1499|General Ward|Vacant|
+R1500|General Ward|Vacant|
+R1501|General Ward|Vacant|
+R1502|General Ward|Vacant|
+R1503|General Ward|Vacant|
+R1504|General Ward|Vacant|
+R1505|General Ward|Vacant|
+R1506|General Ward|Vacant|
+R1507|General Ward|Vacant|
+R1508|General Ward|Vacant|
+R1509|General Ward|Vacant|
+R1510|General Ward|Vacant|
+R1511|General Ward|Vacant|
+R1512|General Ward|Vacant|
+R1513|General Ward|Vacant|
+R1514|General Ward|Vacant|
+R1515|General Ward|Vacant|
+R1516|General Ward|Vacant|
+R1517|General Ward|Vacant|
+R1518|General Ward|Vacant|
+R1519|General Ward|Vacant|
+R1520|General Ward|Vacant|
+R1521|General Ward|Vacant|
+R1522|General Ward|Vacant|
+R1523|General Ward|Vacant|
+R1524|General Ward|Vacant|
+R1525|General Ward|Vacant|
+R1526|General Ward|Vacant|
+R1527|General Ward|Vacant|
+R1528|General Ward|Vacant|
+R1529|General Ward|Vacant|
+R1530|General Ward|Vacant|
+R1531|General Ward|Vacant|
+R1532|General Ward|Vacant|
+R1533|General Ward|Vacant|
+R1534|General Ward|Vacant|
+R1535|General Ward|Vacant|
+R1536|General Ward|Vacant|
+R1537|General Ward|Vacant|
+R1538|General Ward|Vacant|
+R1539|General Ward|Vacant|
+R1540|General Ward|Vacant|
+R1541|General Ward|Vacant|
+R1542|General Ward|Vacant|
+R1543|General Ward|Vacant|
+R1544|General Ward|Vacant|
+R1545|General Ward|Vacant|
+R1546|General Ward|Vacant|
+R1547|General Ward|Vacant|
+R1548|General Ward|Vacant|
+R1549|General Ward|Vacant|
+R1550|General Ward|Vacant|
+R1551|General Ward|Vacant|
+R1552|General Ward|Vacant|
+R1553|General Ward|Vacant|
+R1554|General Ward|Vacant|
+R1555|General Ward|Vacant|
+R1556|General Ward|Vacant|
+R1557|General Ward|Vacant|
+R1558|General Ward|Vacant|
+R1559|General Ward|Vacant|
+R1560|General Ward|Vacant|
+R1561|General Ward|Vacant|
+R1562|General Ward|Vacant|
+R1563|General Ward|Vacant|
+R1564|General Ward|Vacant|
+R1565|General Ward|Vacant|
+R1566|General Ward|Vacant|
+R1567|General Ward|Vacant|
+R1568|General Ward|Vacant|
+R1569|General Ward|Vacant|
+R1570|General Ward|Vacant|
+R1571|General Ward|Vacant|
+R1572|General Ward|Vacant|
+R1573|General Ward|Vacant|
+R1574|General Ward|Vacant|
+R1575|General Ward|Vacant|
+R1576|General Ward|Vacant|
+R1577|General Ward|Vacant|
+R1578|General Ward|Vacant|
+R1579|General Ward|Vacant|
+R1580|General Ward|Vacant|
+R1581|General Ward|Vacant|
+R1582|General Ward|Vacant|
+R1583|General Ward|Vacant|
+R1584|General Ward|Vacant|
+R1585|General Ward|Vacant|
+R1586|General Ward|Vacant|
+R1587|General Ward|Vacant|
+R1588|General Ward|Vacant|
+R1589|General Ward|Vacant|
+R1590|General Ward|Vacant|
+R1591|General Ward|Vacant|
+R1592|General Ward|Vacant|
+R1593|General Ward|Vacant|
+R1594|General Ward|Vacant|
+R1595|General Ward|Vacant|
+R1596|General Ward|Vacant|
+R1597|General Ward|Vacant|
+R1598|General Ward|Vacant|
+R1599|General Ward|Vacant|
+R1600|General Ward|Vacant|
+R1601|General Ward|Vacant|
+R1602|General Ward|Vacant|
+R1603|General Ward|Vacant|
+R1604|General Ward|Vacant|
+R1605|General Ward|Vacant|
+R1606|General Ward|Vacant|
+R1607|General Ward|Vacant|
+R1608|General Ward|Vacant|
+R1609|General Ward|Vacant|
+R1610|General Ward|Vacant|
+R1611|General Ward|Vacant|
+R1612|General Ward|Vacant|
+R1613|General Ward|Vacant|
+R1614|General Ward|Vacant|
+R1615|General Ward|Vacant|
+R1616|General Ward|Vacant|
+R1617|General Ward|Vacant|
+R1618|General Ward|Vacant|
+R1619|General Ward|Vacant|
+R1620|General Ward|Vacant|
+R1621|General Ward|Vacant|
+R1622|General Ward|Vacant|
+R1623|General Ward|Vacant|
+R1624|General Ward|Vacant|
+R1625|General Ward|Vacant|
+R1626|General Ward|Vacant|
+R1627|General Ward|Vacant|
+R1628|General Ward|Vacant|
+R1629|General Ward|Vacant|
+R1630|General Ward|Vacant|
+R1631|General Ward|Vacant|
+R1632|General Ward|Vacant|
+R1633|General Ward|Vacant|
+R1634|General Ward|Vacant|
+R1635|General Ward|Vacant|
+R1636|General Ward|Vacant|
+R1637|General Ward|Vacant|
+R1638|General Ward|Vacant|
+R1639|General Ward|Vacant|
+R1640|General Ward|Vacant|
+R1641|General Ward|Vacant|
+R1642|General Ward|Vacant|
+R1643|General Ward|Vacant|
+R1644|General Ward|Vacant|
+R1645|General Ward|Vacant|
+R1646|General Ward|Vacant|
+R1647|General Ward|Vacant|
+R1648|General Ward|Vacant|
+R1649|General Ward|Vacant|
+R1650|General Ward|Vacant|
+R1651|General Ward|Vacant|
+R1652|General Ward|Vacant|
+R1653|General Ward|Vacant|
+R1654|General Ward|Vacant|
+R1655|General Ward|Vacant|
+R1656|General Ward|Vacant|
+R1657|General Ward|Vacant|
+R1658|General Ward|Vacant|
+R1659|General Ward|Vacant|
+R1660|General Ward|Vacant|
+R1661|General Ward|Vacant|
+R1662|General Ward|Vacant|
+R1663|General Ward|Vacant|
+R1664|General Ward|Vacant|
+R1665|General Ward|Vacant|
+R1666|General Ward|Vacant|
+R1667|General Ward|Vacant|
+R1668|General Ward|Vacant|
+R1669|General Ward|Vacant|
+R1670|General Ward|Vacant|
+R1671|General Ward|Vacant|
+R1672|General Ward|Vacant|
+R1673|General Ward|Vacant|
+R1674|General Ward|Vacant|
+R1675|General Ward|Vacant|
+R1676|General Ward|Vacant|
+R1677|General Ward|Vacant|
+R1678|General Ward|Vacant|
+R1679|General Ward|Vacant|
+R1680|General Ward|Vacant|
+R1681|General Ward|Vacant|
+R1682|General Ward|Vacant|
+R1683|General Ward|Vacant|
+R1684|General Ward|Vacant|
+R1685|General Ward|Vacant|
+R1686|General Ward|Vacant|
+R1687|General Ward|Vacant|
+R1688|General Ward|Vacant|
+R1689|General Ward|Vacant|
+R1690|General Ward|Vacant|
+R1691|General Ward|Vacant|
+R1692|General Ward|Vacant|
+R1693|General Ward|Vacant|
+R1694|General Ward|Vacant|
+R1695|General Ward|Vacant|
+R1696|General Ward|Vacant|
+R1697|General Ward|Vacant|
+R1698|General Ward|Vacant|
+R1699|General Ward|Vacant|
+R1700|General Ward|Vacant|
+R1701|General Ward|Vacant|
+R1702|General Ward|Vacant|
+R1703|General Ward|Vacant|
+R1704|General Ward|Vacant|
+R1705|General Ward|Vacant|
+R1706|General Ward|Vacant|
+R1707|General Ward|Vacant|
+R1708|General Ward|Vacant|
+R1709|General Ward|Vacant|
+R1710|General Ward|Vacant|
+R1711|General Ward|Vacant|
+R1712|General Ward|Vacant|
+R1713|General Ward|Vacant|
+R1714|General Ward|Vacant|
+R1715|General Ward|Vacant|
+R1716|General Ward|Vacant|
+R1717|General Ward|Vacant|
+R1718|General Ward|Vacant|
+R1719|General Ward|Vacant|
+R1720|General Ward|Vacant|
+R1721|General Ward|Vacant|
+R1722|General Ward|Vacant|
+R1723|General Ward|Vacant|
+R1724|General Ward|Vacant|
+R1725|General Ward|Vacant|
+R1726|General Ward|Vacant|
+R1727|General Ward|Vacant|
+R1728|General Ward|Vacant|
+R1729|General Ward|Vacant|
+R1730|General Ward|Vacant|
+R1731|General Ward|Vacant|
+R1732|General Ward|Vacant|
+R1733|General Ward|Vacant|
+R1734|General Ward|Vacant|
+R1735|General Ward|Vacant|
+R1736|General Ward|Vacant|
+R1737|General Ward|Vacant|
+R1738|General Ward|Vacant|
+R1739|General Ward|Vacant|
+R1740|General Ward|Vacant|
+R1741|General Ward|Vacant|
+R1742|General Ward|Vacant|
+R1743|General Ward|Vacant|
+R1744|General Ward|Vacant|
+R1745|General Ward|Vacant|
+R1746|General Ward|Vacant|
+R1747|General Ward|Vacant|
+R1748|General Ward|Vacant|
+R1749|General Ward|Vacant|
+R1750|General Ward|Vacant|
+R1751|General Ward|Vacant|
+R1752|General Ward|Vacant|
+R1753|General Ward|Vacant|
+R1754|General Ward|Vacant|
+R1755|General Ward|Vacant|
+R1756|General Ward|Vacant|
+R1757|General Ward|Vacant|
+R1758|General Ward|Vacant|
+R1759|General Ward|Vacant|
+R1760|General Ward|Vacant|
+R1761|General Ward|Vacant|
+R1762|General Ward|Vacant|
+R1763|General Ward|Vacant|
+R1764|General Ward|Vacant|
+R1765|General Ward|Vacant|
+R1766|General Ward|Vacant|
+R1767|General Ward|Vacant|
+R1768|General Ward|Vacant|
+R1769|General Ward|Vacant|
+R1770|General Ward|Vacant|
+R1771|General Ward|Vacant|
+R1772|General Ward|Vacant|
+R1773|General Ward|Vacant|
+R1774|General Ward|Vacant|
+R1775|General Ward|Vacant|
+R1776|General Ward|Vacant|
+R1777|General Ward|Vacant|
+R1778|General Ward|Vacant|
+R1779|General Ward|Vacant|
+R1780|General Ward|Vacant|
+R1781|General Ward|Vacant|
+R1782|General Ward|Vacant|
+R1783|General Ward|Vacant|
+R1784|General Ward|Vacant|
+R1785|General Ward|Vacant|
+R1786|General Ward|Vacant|
+R1787|General Ward|Vacant|
+R1788|General Ward|Vacant|
+R1789|General Ward|Vacant|
+R1790|General Ward|Vacant|
+R1791|General Ward|Vacant|
+R1792|General Ward|Vacant|
+R1793|General Ward|Vacant|
+R1794|General Ward|Vacant|
+R1795|General Ward|Vacant|
+R1796|General Ward|Vacant|
+R1797|General Ward|Vacant|
+R1798|General Ward|Vacant|
+R1799|General Ward|Vacant|
+R1800|General Ward|Vacant|
+R1801|General Ward|Vacant|
+R1802|General Ward|Vacant|
+R1803|General Ward|Vacant|
+R1804|General Ward|Vacant|
+R1805|General Ward|Vacant|
+R1806|General Ward|Vacant|
+R1807|General Ward|Vacant|
+R1808|General Ward|Vacant|
+R1809|General Ward|Vacant|
+R1810|General Ward|Vacant|
+R1811|General Ward|Vacant|
+R1812|General Ward|Vacant|
+R1813|General Ward|Vacant|
+R1814|General Ward|Vacant|
+R1815|General Ward|Vacant|
+R1816|General Ward|Vacant|
+R1817|General Ward|Vacant|
+R1818|General Ward|Vacant|
+R1819|General Ward|Vacant|
+R1820|General Ward|Vacant|
+R1821|General Ward|Vacant|
+R1822|General Ward|Vacant|
+R1823|General Ward|Vacant|
+R1824|General Ward|Vacant|
+R1825|General Ward|Vacant|
+R1826|General Ward|Vacant|
+R1827|General Ward|Vacant|
+R1828|General Ward|Vacant|
+R1829|General Ward|Vacant|
+R1830|General Ward|Vacant|
+R1831|General Ward|Vacant|
+R1832|General Ward|Vacant|
+R1833|General Ward|Vacant|
+R1834|General Ward|Vacant|
+R1835|General Ward|Vacant|
+R1836|General Ward|Vacant|
+R1837|General Ward|Vacant|
+R1838|General Ward|Vacant|
+R1839|General Ward|Vacant|
+R1840|General Ward|Vacant|
+R1841|General Ward|Vacant|
+R1842|General Ward|Vacant|
+R1843|General Ward|Vacant|
+R1844|General Ward|Vacant|
+R1845|General Ward|Vacant|
+R1846|General Ward|Vacant|
+R1847|General Ward|Vacant|
+R1848|General Ward|Vacant|
+R1849|General Ward|Vacant|
+R1850|General Ward|Vacant|
+R1851|General Ward|Vacant|
+R1852|General Ward|Vacant|
+R1853|General Ward|Vacant|
+R1854|General Ward|Vacant|
+R1855|General Ward|Vacant|
+R1856|General Ward|Vacant|
+R1857|General Ward|Vacant|
+R1858|General Ward|Vacant|
+R1859|General Ward|Vacant|
+R1860|General Ward|Vacant|
+R1861|General Ward|Vacant|
+R1862|General Ward|Vacant|
+R1863|General Ward|Vacant|
+R1864|General Ward|Vacant|
+R1865|General Ward|Vacant|
+R1866|General Ward|Vacant|
+R1867|General Ward|Vacant|
+R1868|General Ward|Vacant|
+R1869|General Ward|Vacant|
+R1870|General Ward|Vacant|
+R1871|General Ward|Vacant|
+R1872|General Ward|Vacant|
+R1873|General Ward|Vacant|
+R1874|General Ward|Vacant|
+R1875|General Ward|Vacant|
+R1876|General Ward|Vacant|
+R1877|General Ward|Vacant|
+R1878|General Ward|Vacant|
+R1879|General Ward|Vacant|
+R1880|General Ward|Vacant|
+R1881|General Ward|Vacant|
+R1882|General Ward|Vacant|
+R1883|General Ward|Vacant|
+R1884|General Ward|Vacant|
+R1885|General Ward|Vacant|
+R1886|General Ward|Vacant|
+R1887|General Ward|Vacant|
+R1888|General Ward|Vacant|
+R1889|General Ward|Vacant|
+R1890|General Ward|Vacant|
+R1891|General Ward|Vacant|
+R1892|General Ward|Vacant|
+R1893|General Ward|Vacant|
+R1894|General Ward|Vacant|
+R1895|General Ward|Vacant|
+R1896|General Ward|Vacant|
+R1897|General Ward|Vacant|
+R1898|General Ward|Vacant|
+R1899|General Ward|Vacant|
+R1900|General Ward|Vacant|
+R1901|General Ward|Vacant|
+R1902|General Ward|Vacant|
+R1903|General Ward|Vacant|
+R1904|General Ward|Vacant|
+R1905|General Ward|Vacant|
+R1906|General Ward|Vacant|
+R1907|General Ward|Vacant|

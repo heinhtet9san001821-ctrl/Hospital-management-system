@@ -1,0 +1,18 @@
+# ninja log v6
+37	6524	8130768458228137	HospitalGUI_autogen/timestamp	7ec9060446f993
+37	6524	8130768458228137	HospitalGUI_autogen/mocs_compilation.cpp	7ec9060446f993
+37	6524	8130768458228137	D:/Learning code/HospitalGUI(Health++)/build/HospitalGUI_autogen/timestamp	7ec9060446f993
+37	6524	8130768458228137	D:/Learning code/HospitalGUI(Health++)/build/HospitalGUI_autogen/mocs_compilation.cpp	7ec9060446f993
+6646	10059	8130768460474747	CMakeFiles/HospitalGUI.dir/src/person.cpp.obj	dbf9413e33fb2223
+6636	10404	8130768460372369	CMakeFiles/HospitalGUI.dir/src/patient.cpp.obj	a92013e342ea5ec
+6602	10427	8130768460038251	CMakeFiles/HospitalGUI.dir/src/appointment.cpp.obj	2c9cee8f060088fe
+6614	10466	8130768460156302	CMakeFiles/HospitalGUI.dir/src/doctor.cpp.obj	40c7baf7042ae61a
+6625	10837	8130768460267322	CMakeFiles/HospitalGUI.dir/src/nurse.cpp.obj	24420fe174822fd
+6592	15538	8130768459934355	CMakeFiles/HospitalGUI.dir/src/blood_bank.cpp.obj	62e01c41bae8470
+10405	16686	8130768498061874	CMakeFiles/HospitalGUI.dir/src/facility.cpp.obj	dcaaf1d545e742c9
+6581	16772	8130768459830611	CMakeFiles/HospitalGUI.dir/src/hospital_manager.cpp.obj	1d9cb55c3045cc8c
+10059	18200	8130768494605645	CMakeFiles/HospitalGUI.dir/src/user.cpp.obj	825e4f7fd482c956
+6539	18638	8130768459401624	CMakeFiles/HospitalGUI.dir/HospitalGUI_autogen/mocs_compilation.cpp.obj	3d1e743c92831345
+6552	19302	8130768459534434	CMakeFiles/HospitalGUI.dir/main.cpp.obj	671c5edd757b04df
+6568	27328	8130768459700463	CMakeFiles/HospitalGUI.dir/mainwindow.cpp.obj	5f604947c545e603
+27330	31153	8130768667318472	HospitalGUI.exe	6709e3b1c1900d84

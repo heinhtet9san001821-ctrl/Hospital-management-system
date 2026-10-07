@@ -1,0 +1,20 @@
+802|Theatre B — Full suite|1|1|Dr. Aung Kaung Myat 
+803|Operating Theatre 3|1|1|Dr. Nyan Lin Htet 
+805|Operating Theatre 5|1|1|Dr. Kyi Phyu Khin
+808|Operating Theatre 8|1|1|Dr. Nyan Lin Htet
+809|Operating Theatre 9|1|1|Dr. Theint Wadi Aung
+810|Operating Theatre 10|1|0| 
+811|Operating Theatre 11|1|0| 
+812|Operating Theatre 12|1|0| 
+813|Operating Theatre 13|1|0| 
+814|Operating Theatre 14|1|0| 
+815|Operating Theatre 15|1|0| 
+816|Operating Theatre 16|1|0| 
+817|Operating Theatre 17|1|0| 
+818|Operating Theatre 18|1|0| 
+819|Operating Theatre 19|1|0| 
+820|Operating Theatre 20|1|0| 
+817|Operating Theatre 17|1|0|
+818|Operating Theatre 18|1|0|
+819|Operating Theatre 19|1|0|
+820|Operating Theatre 20|1|0|

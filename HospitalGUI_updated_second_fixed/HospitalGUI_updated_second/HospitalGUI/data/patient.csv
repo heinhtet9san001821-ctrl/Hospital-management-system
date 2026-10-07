@@ -1,0 +1,21 @@
+PAT-0001,Kyaw Gyi,20,Male,09439829243,PAT-0001,New registration,Outpatient,302,0
+EMG-0001,Mg Mg,0,Unknown,093214827432,EMG-0001,Unknown - Emergency Intake; pending full assessment,Emergency ICU,500,1
+EMG-0002,Khin Mg Toe,0,Unknown,09342124385,EMG-0002,Unknown - Emergency Intake; pending full assessment,Emergency ICU,501,1
+EMG-0003,Khin Mg Toe,0,Unknown,09342124385,EMG-0003,Unknown - Emergency Intake; pending full assessment,Emergency ICU,502,1
+PAT-0005,Mya Mya,30,Female,098764253112,PAT-0005,New registration,Outpatient,325,0
+PAT-0006,Aung Aung,28,Male,0932146453721,PAT-0006,New registration,Outpatient,220,0
+EMG-0004,Hsu,0,Unknown,0929147284,EMG-0004,Unknown - Emergency Intake; pending full assessment,Emergency ICU,503,1
+PAT-DEMO-01,Amy Win,27,Female,09-700-1001,PAT-DEMO-01,Recurring migraine,Outpatient,302,0
+PAT-DEMO-02,Ko Min Thu,34,Male,09-700-1002,PAT-DEMO-02,Knee pain after sports,Outpatient,335,0
+PAT-DEMO-03,Thiri Aung,31,Female,09-700-1003,PAT-DEMO-03,Seasonal asthma,Outpatient,302,0
+PAT-DEMO-04,Nay Lin,52,Male,09-700-1004,PAT-DEMO-04,Blood pressure review,Outpatient,-1,0
+PAT-DEMO-05,May Zin,29,Female,09-700-1005,PAT-DEMO-05,Routine check-up,Outpatient,-1,0
+PAT-DEMO-06,Hla Hla,41,Female,09-700-1006,PAT-DEMO-06,Skin irritation,Outpatient,410,0
+EMG-0005,A person in front of me,0,Unknown,09 231-422-234,EMG-0005,Unknown - Emergency Intake; pending full assessment,Emergency ICU,504,1
+EMG-0006,A person in front of me,0,Unknown,09 231-422-234,EMG-0006,Unknown - Emergency Intake; pending full assessment,Emergency ICU,505,1
+EMG-0007,A person in front of me,0,Unknown,09 231-422-234,EMG-0007,Unknown - Emergency Intake; pending full assessment,Emergency ICU,506,1
+EMG-0008,A person in front of me,0,Unknown,09 231-422-234,EMG-0008,Unknown - Emergency Intake; pending full assessment,Emergency ICU,507,1
+EMG-0009,A person in front of me,0,Unknown,09 231-422-234,EMG-0009,Unknown - Emergency Intake; pending full assessment,Emergency ICU,508,1
+PAT-0007,Wai Yan,22,Male,09-231-321-453,@waiyan,New registration,Outpatient,220,0
+EMG-0010,someone,0,Unknown,09 342-211-231,EMG-0010,Unknown - Emergency Intake; pending full assessment,Emergency ICU,509,1
+EMG-0011,Htet Htet,0,Unknown,09 232-123-321,EMG-0011,Unknown - Emergency Intake; pending full assessment,Emergency ICU,-1,1

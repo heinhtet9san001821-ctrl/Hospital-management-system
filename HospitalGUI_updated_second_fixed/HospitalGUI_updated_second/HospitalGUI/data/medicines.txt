@@ -1,0 +1,13 @@
+Paracetamol 500mg|420|tab 
+Amoxicillin 250mg|180|cap 
+Normal Saline 500ml|96|bag 
+Insulin (vial)|28|vial 
+Morphine 10mg|40|amp 
+Ibuprofen 400mg|240|tab
+Ceftriaxone 1g|72|vial
+Omeprazole 20mg|160|cap
+Salbutamol inhaler|35|inhaler
+Lidocaine 2%|64|vial
+Dextrose 5%|88|bag
+Aspirin 75mg|210|tab
+Metformin 500mg|190|tab

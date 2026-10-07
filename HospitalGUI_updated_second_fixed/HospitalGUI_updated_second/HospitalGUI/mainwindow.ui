@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Health++</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="centralLayout">
+    <property name="leftMargin"><number>0</number></property>
+    <property name="topMargin"><number>0</number></property>
+    <property name="rightMargin"><number>0</number></property>
+    <property name="bottomMargin"><number>0</number></property>
+    <item>
+     <widget class="QStackedWidget" name="mainStackedWidget">
+      <property name="currentIndex"><number>0</number></property>
+      <widget class="QWidget" name="pageWelcome"/>
+      <widget class="QWidget" name="pageGateway"/>
+      <widget class="QWidget" name="pageLogin"/>
+      <widget class="QWidget" name="pageSignup"/>
+      <widget class="QWidget" name="pageEmergency"/>
+      <widget class="QWidget" name="pagePatient"/>
+    <widget class="QWidget" name="pageDoctor"/>
+      <widget class="QWidget" name="pageNurse"/>
+      <widget class="QWidget" name="pageManager"/>
+      <widget class="QWidget" name="pageInvoice"/>
+      <widget class="QWidget" name="pageDenied"/>
+      <widget class="QWidget" name="pagePending"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

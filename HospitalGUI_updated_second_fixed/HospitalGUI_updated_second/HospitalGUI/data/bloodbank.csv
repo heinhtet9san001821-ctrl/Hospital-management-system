@@ -1,0 +1,8 @@
+BLD-0001,O+,450,Kyaw Gyi,@kyawkyaw341,2026-09-04,2026-10-16,Discarded,,,
+BLD-0002,O+,450,Kyaw Gyi,@kyawkyaw341,2026-09-04,2026-10-16,Used,PAT-0001,For kidney patient operation,2026-09-06
+BLD-0003,AB+,450,Mya Mya,Mya Mya,2026-09-06,2026-10-18,Discarded,,,
+BLD-0004,B-,450,Ko Min Thu,patient_ko,2026-09-07,2026-10-19,Used,PAT-DEMO-02,For thyroid operationg,2026-09-08
+BLD-0005,O+,450,Thiri Aung,patient_thiri,2026-09-07,2026-10-19,Available,,,
+BLD-0006,O-,450,Ko Min Thu,09-700-1002,2026-09-08,2026-10-20,Used,PAT-DEMO-02,For  gut operation,2026-09-08
+BLD-0007,O-,450,Ko Min Thu,09-700-1002,2026-09-08,2026-10-20,Available,,,
+BLD-0008,O-,450,Ko Min Thu,09-700-1002,2026-09-08,2026-10-20,Available,,,

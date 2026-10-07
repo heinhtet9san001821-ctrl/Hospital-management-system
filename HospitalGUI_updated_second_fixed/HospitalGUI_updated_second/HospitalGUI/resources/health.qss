@@ -1,0 +1,50 @@
+QMainWindow, QWidget {
+    background-color: #EEF6F5;
+    color: #203B3A;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+QLabel { background: transparent; }
+QLabel#heroTitle { color:#F6FFFC; font-size:46px; font-weight:700; padding:4px 0; }
+QLabel#heroSub { color:#D2E9E2; font-size:18px; padding:3px 0; }
+QLabel#welcomeTopline { color:#BFD7C8; font-size:12px; font-weight:700; letter-spacing:2px; }
+QLabel#welcomeMark { color:#E6C879; font-size:14px; font-weight:700; letter-spacing:6px; }
+QLabel#welcomeFooter { color:#AFC8BA; font-size:12px; }
+QLabel#sectionTitle { color:#1C3D3A; font-size:26px; font-weight:600; }
+QLabel#muted { color:#6B7A76; }
+QFrame#heroPanel { background:qlineargradient(x1:0,y1:0,x2:1,y2:1,stop:0 #0D4050,stop:.45 #14706B,stop:1 #5E9A78); }
+QFrame#card { background:#FBFDFC; border:1px solid #D1E2DC; border-radius:14px; }
+QFrame#entryCard { border-top:5px solid #238078; background:#F1FBFA; border-radius:18px; }
+QFrame#entryCard[entryKind="emergency"] { border-top-color:#D87667; background:#FFF4F1; }
+QFrame#entryCard[entryKind="signup"] { border-top-color:#C79A4B; background:#FFF9E8; }
+QLabel#gatewayIntro { color:#536C66; font-size:18px; font-weight:600; padding:2px 2px 4px; }
+QLabel#entryTitle { color:#1C3D3A; font-size:25px; font-weight:700; }
+QFrame#formCard { background:#FBFDFC; border:1px solid #C9DDD6; border-radius:14px; }
+QFrame#emergencyForm { background:#FFF9F6; border:1px solid #E8C8BE; border-radius:14px; }
+QLabel#infoPanel { background:#EAF5F2; border:1px solid #B9DCD2; border-left:5px solid #2E8B78; border-radius:12px; padding:14px; color:#214B48; }
+QPushButton { background:#17605F; color:#F5FFFC; border:none; border-radius:8px; padding:13px 22px; font-size:14px; font-weight:600; }
+QPushButton:hover { background:#238078; }
+QPushButton:disabled { background:#C9C1B4; color:#7A7368; }
+QPushButton#goldBtn { background:#E7B968; color:#173A3A; font-weight:600; }
+QPushButton#goldBtn:hover { background:#D4A954; }
+QFrame#entryCard[entryKind="emergency"] QPushButton { background:#C65F52; color:#FFF9F6; }
+QFrame#entryCard[entryKind="emergency"] QPushButton:hover { background:#A94D43; }
+QFrame#entryCard[entryKind="signup"] QPushButton { background:#E7B968; color:#173A3A; }
+QFrame#entryCard[entryKind="signup"] QPushButton:hover { background:#D9A94F; }
+QFrame#entryCard[entryKind="signin"] QPushButton { background:#238078; }
+QPushButton#ghostBtn { background:transparent; color:#F7F1E5; border:1px solid #D8C7A3; }
+QPushButton#quietBtn { background:#E6F1EE; color:#1E5553; }
+QPushButton#quietBtn:checked { background:#17605F; color:#FFFFFF; border-left:4px solid #E7B968; }
+QLabel#doctorSpecialty { color:#BDE5D8; font-size:13px; font-weight:600; padding-right:14px; }
+QLabel#nurseTitle { color:#F7F1E5; font-size:21px; font-weight:700; letter-spacing:1px; }
+QFrame#nursePanel { background:#FBFDFC; border:1px solid #C9DDD8; border-top:4px solid #2E8B78; border-radius:12px; }
+QPushButton#quietBtn { min-height:42px; text-align:left; padding-left:16px; }
+QPushButton#quietBtn:hover { background:#D4EAE3; color:#123F3D; }
+QLineEdit, QPlainTextEdit, QTextEdit, QComboBox, QDateEdit, QListWidget, QTableWidget { background:#FFFFFF; border:1px solid #C9DDD8; border-radius:10px; padding:8px 10px; selection-background-color:#17605F; }
+QListWidget::item:selected { background:#17605F; color:#F5FFFC; }
+QTableWidget { gridline-color:#D8E7E3; alternate-background-color:#F4FAF8; }
+QHeaderView::section { background:#E6F1EE; color:#205451; border:none; padding:8px; font-weight:700; }
+QScrollArea { border:none; background:transparent; }
+QTabWidget::pane { border:1px solid #D1E2DC; border-radius:12px; background:#FBFDFC; }
+QTabBar::tab { background:#E6F1EE; color:#205451; padding:11px 16px; margin-right:3px; border-top-left-radius:8px; border-top-right-radius:8px; }
+QTabBar::tab:selected { background:#17605F; color:#FFFFFF; }

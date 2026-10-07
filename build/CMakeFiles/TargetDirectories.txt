@@ -1,0 +1,9 @@
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/HospitalGUI.dir
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/edit_cache.dir
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/rebuild_cache.dir
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/list_install_components.dir
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/install.dir
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/install/local.dir
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/install/strip.dir
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/HospitalGUI_autogen_timestamp_deps.dir
+D:/Learning code/HospitalGUI(Health++)/build/CMakeFiles/HospitalGUI_autogen.dir
