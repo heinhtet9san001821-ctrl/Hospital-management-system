@@ -58,6 +58,9 @@ The system provides a dedicated Emergency option directly from the initial scree
 
 Users can submit an ambulance request to the HMS Manager during emergency situations, allowing the hospital management team to receive and respond to urgent transportation requests.
 
+** Blood bank
+The hospital manager can see the data entry of blood bank and manage the history ,usage of blood type,donars.
+
 ## 🚀 How to Run the Project
 To run this application locally, you need to have **Qt Creator** installed.
 1. Clone this repository:
